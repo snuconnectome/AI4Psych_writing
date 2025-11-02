@@ -59,7 +59,10 @@
 │   ├── workshop_materials.md           # Bad Sentences + Bad Paragraphs + Smart Revising (Figma integrated)
 │   ├── bad_paragraphs_real_papers.md   # 4 real PLOS ONE/MDPI paragraphs with before/after analysis
 │   ├── teaching_guide_90min.md         # Minute-by-minute teaching guide (Figma facilitation)
-│   └── figma_workshop_guide.md         # Figma workshop comprehensive guide
+│   ├── figma_workshop_guide.md         # Figma workshop comprehensive guide
+│   ├── NOTION_WORKSHOP_DESIGN.md       # Notion workspace design specification (Week 2-6)
+│   ├── create_notion_workshop_simple.py # Working automation script ✅
+│   └── create_notion_workshop_week2_6.py # Full-featured script (reference)
 │
 ├── week2/                              # AI 활용 I - 초록
 │   └── lecture_notes.md                # Nature/Science abstract strategies (395 lines)
@@ -317,6 +320,190 @@ Week 3 Best Recipes:
 ### Files
 - `week1/figma_workshop_guide.md`: Week 1 complete guide with canvas layouts, scripts, troubleshooting
 - `claudedocs/figma_workshop_weeks2-6.md`: Week 2-6 strategies, AI experiment structures, recipe library system
+
+## 📱 Notion Interactive Workshops (Week 2-6)
+
+### Overview
+Week 2-6 workshops have been implemented in **Notion** for persistent, structured AI experimentation with built-in database tracking.
+
+### Why Notion for Week 2-6?
+- **API-Driven Setup**: Automated workspace generation using Python scripts
+- **Database Integration**: Student submissions and AI recipe tracking in linked databases
+- **Template Buttons**: Quick student workspace duplication for each workshop
+- **Familiar Interface**: Most students already use Notion
+- **Persistent Memory**: Recipe library accumulates across weeks
+- **Search & Filter**: Easy access to past experiments and successful recipes
+
+### Implementation Status ✅
+
+**Successfully Created** (2025-01-02):
+- ✅ **Student Submissions Database** (`29f41454-561d-811d-9253-eed62e257c47`)
+  - Properties: Name, 학생, Week, Section, Status, Peer Score, Peer Feedback
+  - Tracks all student work across Week 2-6
+
+- ✅ **AI Recipe Library Database** (`29f41454-561d-8129-8620-c67cc0aa62d9`)
+  - Properties: Recipe Name, Week, Category, Prompt, Success Rate, Submitted By
+  - Collective knowledge base that grows each week
+
+- ✅ **5 Workshop Pages** (Week 2-6)
+  - Week 2: Nature/Science급 초록 작성 (`29f41454-561d-8172-a4e9-d63c7eee0f0a`)
+  - Week 3: 체계적 Research Gap 발견 (`29f41454-561d-817c-842d-f653dac8b2cd`)
+  - Week 4: Methods/Results Bulletproofing (`29f41454-561d-818e-acd5-eb56e0bb807a`)
+  - Week 5: Discussion Section (`29f41454-561d-8121-ad35-fdf8e5536a6b`)
+  - Week 6: Final Polish & Peer Review (`29f41454-561d-81df-ac5e-cbf9f0a50160`)
+
+**Parent Page**: `심리과학 연구방법-롸이팅` (`29f41454-561d-80ec-9fde-d005c16efcaf`)
+
+### Workspace Structure
+
+```
+📚 뇌데사 2025
+│
+├─ 📊 Student Submissions Database
+│  └─ Filters by Week, Status, Student
+│
+├─ 🧪 AI Recipe Library Database
+│  └─ Filters by Week, Category, Success Rate
+│
+├─ 📅 Week 2: Nature/Science급 초록 작성
+│  ├─ 📖 강의 자료 (전략 + 평가 기준)
+│  ├─ 💡 예시 프롬프트 레시피
+│  ├─ 🧪 학생 실험 영역 (Template Button)
+│  └─ 📊 Student Submissions (Linked DB)
+│
+├─ 📅 Week 3: 체계적 Research Gap 발견
+│  ├─ 📖 Gap 유형 분류
+│  ├─ 💡 3-Stage Validation 레시피
+│  ├─ 🧪 Gap Discovery Canvas
+│  └─ 📊 Student Submissions
+│
+├─ 📅 Week 4: Methods/Results Bulletproofing
+│  ├─ 📖 Reproducibility Checklist
+│  ├─ 💡 Red Team/Blue Team 레시피
+│  ├─ 🧪 Bulletproofing Workspace
+│  └─ 📊 Student Submissions
+│
+├─ 📅 Week 5: Discussion Section
+│  └─ [Similar structure]
+│
+└─ 📅 Week 6: Final Polish & Peer Review
+   └─ [Similar structure]
+```
+
+### Automation Scripts
+
+**Primary Script** (Simplified, Working):
+- `week1/create_notion_workshop_simple.py`
+- Creates databases + week pages with basic structure
+- Successfully executed on 2025-01-02
+- Usage: `python create_notion_workshop_simple.py <parent_page_id>`
+
+**Full Script** (Complex, Reference):
+- `week1/create_notion_workshop_week2_6.py`
+- Attempted full content generation with detailed blocks
+- Encountered Notion API limitations with complex nested blocks
+- Kept as reference for understanding full vision
+
+**Design Document**:
+- `week1/NOTION_WORKSHOP_DESIGN.md`
+- Complete specification of databases, properties, views, templates
+- Includes API limitations and manual setup requirements
+
+### Manual Setup Required ⚠️
+
+The automation scripts created the basic infrastructure. These steps need to be completed manually in Notion:
+
+1. **Add Detailed Content to Week Pages** (~30min per week):
+   - Copy strategies from `weekN/lecture_notes.md`
+   - Add evaluation criteria as callout blocks
+   - Insert example AI prompts as toggle blocks
+   - Add "좋은 예시" and "나쁜 예시" sections
+
+2. **Create Template Buttons** (~5min per week):
+   - Use `/template` command in each week page
+   - Name: "내 실험 영역 만들기"
+   - Template structure:
+     ```
+     ## 📝 [학생명]의 실험 영역
+     ### 📥 Input: 내 연구 요약
+     ### 🤖 실험 1: [Strategy Name]
+     - 사용한 프롬프트:
+     - AI 출력:
+     - 자기 평가: /5
+     ### 💬 동료 피드백
+     ```
+
+3. **Link Databases to Week Pages** (~2min per week):
+   - Type `/database` in each week page
+   - Select "Student Submissions"
+   - Add filter: `Week = "Week N"`
+   - Set view: Table or Board
+
+4. **Configure Database Views** (~10min total):
+   - Student Submissions: By Week, By Student, Peer Review Board
+   - AI Recipe Library: By Week, Top Rated, Most Used
+
+### Workshop Workflow (3-Stage Process)
+
+**Stage 1: Individual Experimentation** (30-40min)
+- Student clicks "내 실험 영역 만들기" button
+- Tests 2-3 AI prompts from recipe library
+- Records Input, Prompt, Output in their zone
+- Self-evaluates using provided criteria
+
+**Stage 2: Peer Review** (20-30min)
+- Students visit each other's experiment zones
+- Provide feedback using Notion comments
+- Rate prompts and outputs
+- Suggest improvements
+
+**Stage 3: Collective Curation** (10-20min)
+- Instructor highlights best examples
+- Top recipes added to AI Recipe Library database
+- Class discussion of what worked and why
+- Next week preview
+
+### Files & Documentation
+
+- `week1/create_notion_workshop_simple.py`: Working automation script ✅
+- `week1/create_notion_workshop_week2_6.py`: Full-featured script (reference)
+- `week1/NOTION_WORKSHOP_DESIGN.md`: Complete design specification
+- `week2-6/lecture_notes.md`: Content source for manual population
+
+### Next Steps for Instructor
+
+1. **Week 2 Setup** (estimated 45 minutes):
+   - Add 4 Opening Patterns to 강의 자료 section
+   - Create 10+ example prompt recipes as toggles
+   - Set up Template Button for student workspace
+   - Link Student Submissions database with filter
+   - Test by creating sample student entry
+
+2. **Weeks 3-6 Setup** (estimated 30 minutes each):
+   - Follow same pattern as Week 2
+   - Customize for week-specific strategies
+   - Build on Recipe Library from previous weeks
+
+3. **First Class** (Week 2):
+   - 15min: Orient students to Notion workspace
+   - 70min: Run 3-stage workshop process
+   - 5min: Collect feedback for improvements
+
+### Advantages Over Figma for Week 2-6
+
+| Feature | Figma | Notion |
+|---------|-------|--------|
+| API automation | ❌ Read-only | ✅ Full CRUD |
+| Database tracking | ❌ No | ✅ Built-in |
+| Template buttons | ❌ No | ✅ Native |
+| Search & filter | ⚠️ Limited | ✅ Powerful |
+| Long-term storage | ✅ Yes | ✅ Yes |
+| Real-time collab | ✅ Excellent | ✅ Good |
+| Recipe accumulation | ⚠️ Manual | ✅ Database |
+
+**Recommendation**:
+- **Week 1**: Continue with Figma (visual, real-time, already implemented)
+- **Week 2-6**: Use Notion (structured, trackable, accumulative learning)
 
 ## 🔑 Key Documents
 
