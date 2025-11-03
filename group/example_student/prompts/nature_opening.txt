@@ -1,0 +1,58 @@
+================================================================================
+PROMPT: Nature 스타일 Problem-Driven Opening
+================================================================================
+
+작성자: Example Student
+목적: 초록 첫 문장을 Nature 저널 스타일로 개선
+사용 AI: Claude 3.5 Sonnet
+성공률: ⭐⭐⭐⭐☆ (4/5)
+
+--------------------------------------------------------------------------------
+
+다음 연구 초록을 Nature Human Behaviour 저널 스타일로 개선해주세요.
+
+특히 다음 사항에 집중해주세요:
+
+1. **Problem-Driven Opening**: 첫 문장에서 broader problem을 제시
+2. **Broad Significance**: 이 연구가 왜 중요한지 global context에서 설명
+3. **Gap Statement**: 기존 연구의 한계를 명확히 지적
+4. **Quantitative Impact**: 구체적인 숫자로 결과 강조
+
+현재 초록:
+"""
+Adolescence marks a period of rapid social media adoption. We investigated how social media use relates to self-regulation in 150 middle school students over 6 months. Students who spent >3 hours daily on social media showed significantly lower self-regulation scores (p < .001). Social media use negatively correlated with academic performance (r = -.45). These findings suggest that excessive social media use may impair self-regulatory capacity during adolescence.
+"""
+
+참고할 Nature 초록 패턴:
+- 첫 문장: 전 세계적 문제 또는 현상
+- 둘째 문장: 기존 연구의 gap
+- 셋째 문장: 본 연구의 접근
+- 마지막: 구체적 수치와 broader implication
+
+개선된 초록을 작성해주세요.
+
+--------------------------------------------------------------------------------
+
+AI 응답 예시:
+
+"Globally, over 90% of adolescents use social media daily, yet how this ubiquitous digital behavior shapes core cognitive capacities remains unclear. Here we show that prolonged social media use (>3 hours/day) significantly impairs self-regulation in adolescents (n=150, β = -0.62, p < .001), with effects persisting across 6 months. Social media use explained 20% of variance in academic performance (r = -.45), suggesting that digital habits may fundamentally alter developmental trajectories during this critical period."
+
+--------------------------------------------------------------------------------
+
+피드백:
+✅ 성공한 점:
+- Broader context 설정 ("Globally, over 90%...")
+- Gap 명확히 제시 ("yet how... remains unclear")
+- 구체적 수치 강조 (β, 20% variance)
+
+⚠️ 개선할 점:
+- "fundamentally alter"는 조금 과장일 수 있음
+- Sample size가 작은데 "Globally" 주장은 신중해야 함
+
+--------------------------------------------------------------------------------
+
+사용 팁:
+1. 자신의 연구 분야에 맞게 "Globally" 부분 수정
+2. 샘플 사이즈에 맞는 주장 강도 조절
+3. Effect size (β, r) 반드시 포함
+4. Broader implication은 과장하지 말기
