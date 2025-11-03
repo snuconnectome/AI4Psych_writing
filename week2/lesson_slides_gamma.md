@@ -1,4 +1,4 @@
-# Week 2: AI 활용 I - Nature/Science급 초록 작성 전략
+ㅇㄹ# Week 2: AI 활용 I - Nature/Science급 초록 작성 전략
 
 심리과학 연구방법 - 롸이팅
 

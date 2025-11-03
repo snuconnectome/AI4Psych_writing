@@ -2,14 +2,14 @@
 ## 압축 강의노트 (90분용: 62슬라이드 → 23슬라이드)
 
 **강의 목표**:
-- 독자 중심 글쓰기의 3가지 핵심 원칙 습득
+- 독자 중심 글쓰기의 10가지 핵심 원칙 습득 (3개 영역: 주어-동사, 응집성, 간결성)
 - 실습을 통한 즉각적 적용 능력 함양
 - Smart Revising 7단계 체크리스트 활용법 익히기
 
 **시간 배분**:
 - 강의 35분 (23슬라이드)
-- 실습 40분 (Workshop 2단계)
-- 정리 15분 (Q&A, 과제)
+- 실습 50분 (Workshop 3단계)
+- 정리 5분 (Q&A, 과제)
 
 ---
 
@@ -60,7 +60,7 @@ Discussion: Narrow → Broad
 
 ### Slide 3: Week 1의 역할
 
-**오늘 배울 3가지 기초 원칙은 IMRaD 모든 섹션의 기초**
+**오늘 배울 10가지 핵심 원칙 (Lesson 1-3 통합)은 IMRaD 모든 섹션의 기초**
 
 | 원칙 | Introduction | Methods | Results | Discussion |
 |------|--------------|---------|---------|------------|
@@ -115,6 +115,17 @@ Discussion: Narrow → Broad
    - 동사: *analyzed*
    - 동작이 직접 표현됨
 
+**심리학 논문 예시**:
+
+❌ **The measurement of anxiety levels in participants was conducted using the Beck Anxiety Inventory.**
+   - 명사: *measurement*
+   - 수동태로 주체 불명확
+
+✓ **We measured participants' anxiety levels using the Beck Anxiety Inventory.**
+   - 동사: *measured*
+   - 주체 명확 (We)
+   - 7 words 감축
+
 **더 많은 Nominalization 예시**:
 - regulate → regulation
 - investigate → investigation
@@ -149,6 +160,17 @@ Discussion: Narrow → Broad
 ✓ **The bacteria move themselves in the liquid medium with microflagella.**
    - 주체: *bacteria*가 주어 자리에
    - 누가 움직이는지 즉시 명확
+
+**심리학 논문 예시**:
+
+❌ **The assessment of cognitive flexibility in children with ADHD was performed by trained psychologists.**
+   - 주체: *psychologists*가 문장 끝에 숨음
+   - 수동태로 행위자 불명확
+
+✓ **Trained psychologists assessed cognitive flexibility in children with ADHD.**
+   - 주체: *psychologists*가 주어 자리에
+   - 누가 행동했는지 즉시 명확
+   - 14 words → 9 words (-36%)
 
 **주어 위치의 차이가 이해도를 결정합니다**
 
@@ -263,6 +285,32 @@ acidic soils, such as clay soil.
 ```
 
 **개선**: 각 문장이 이전 문장의 끝 정보로 시작
+
+---
+
+### Slide 2-4b: 원칙 1 - 심리학 예시
+
+**Before: Old→New 흐름이 없는 버전**
+
+```
+Depression symptoms were reduced. The intervention lasted 8 weeks.
+Participants showed improvement.
+```
+
+**문제**: 각 문장이 새로운 주제로 시작해 흐름이 끊김
+
+**After: Old→New 흐름 개선**
+
+```
+The 8-week intervention reduced depression symptoms.
+[New: intervention]
+
+These symptom reductions led to significant improvements
+in participants' daily functioning.
+[Old: reductions → New: functioning]
+```
+
+**개선**: Old→New 흐름으로 자연스러운 연결
 
 ---
 
@@ -388,6 +436,24 @@ languages...
 - ~~complex methodology~~ → **simple method**
 
 **결과**: 훨씬 더 명확하고 읽기 쉬움
+
+---
+
+### Slide 3-3b: 원칙 1+2 - 심리학 예시
+
+**Before & After**
+
+❌ **It is important to note that the personality traits that were measured in this study were found to be significantly correlated with well-being outcomes in a positive manner.**
+
+✓ **Personality traits significantly correlated with well-being outcomes.**
+
+**삭제된 것들**:
+- ~~It is important to note~~ (무의미)
+- ~~that were measured in this study~~ (암시적)
+- ~~were found to be~~ (redundant)
+- ~~in a positive manner~~ ("correlated" 방향은 데이터가 보여줌)
+
+**결과**: 27 words → 8 words (70% 감축), 명확성 대폭 증가
 
 ---
 

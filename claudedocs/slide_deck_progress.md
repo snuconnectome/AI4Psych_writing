@@ -6,12 +6,12 @@
 |------|----------|--------------|--------------|--------|
 | Week 1 | Human-Centered Writing | ✅ 완료 | - | - |
 | Week 2 | AI 활용 I - 초록 | ✅ 완료 | 2시간 | 2025-10-10 |
-| Week 3 | AI 활용 II - Gap 발견 | ⏳ 대기 | 2시간 | - |
-| Week 4 | AI 활용 III - Methods/Results | ⏳ 대기 | 2시간 | - |
-| Week 5 | Discussion Section | ⏳ 대기 | 2시간 | - |
-| Week 6 | Peer Review & Revision | ⏳ 대기 | 2시간 | - |
+| Week 3 | AI 활용 II - Gap 발견 | ✅ 완료 | 2시간 | 2025-10-10 |
+| Week 4 | AI 활용 III - Methods/Results | ✅ 완료 | 2시간 | 2025-10-10 |
+| Week 5 | AI 활용 IV - Discussion | ✅ 완료 | 2시간 | 2025-10-10 |
+| Week 6 | Research Proposal & Qualification | ✅ 완료 | 2시간 | 2025-10-10 |
 
-**전체 진행률**: 2/6 = 33%
+**전체 진행률**: 6/6 = 100% ✅
 
 ---
 
@@ -59,231 +59,320 @@
 
 ---
 
-## ⏳ Week 3: 대기 중
+## ✅ Week 3: 완료 (2025-10-10)
 
-### 강의 주제
-"AI 활용 II - 체계적 Research Gap 발견"
+### 파일
+1. **`week3/lesson_slides_gamma.md`** - Gamma AI 최적화 버전 (주 사용)
+2. **`week3/lecture_notes.md`** - 상세 참고 자료 (553 lines)
+3. **`claudedocs/week3_revision_strategy.md`** - 전략 문서
 
-### 참고 자료
-- `week3/lecture_notes.md` (553 lines)
-- `claudedocs/week3_revision_strategy.md`
-- `claudedocs/figma_workshop_weeks2-6.md` (Week 3 섹션)
+### 슬라이드 구조 (30+ 슬라이드, 15-20분)
 
-### 예상 슬라이드 구조 (12-15 슬라이드, 15-20분)
-
-#### Part 0: Orientation (2 슬라이드, 3분)
+#### Part 0: Orientation (3 슬라이드, 3분)
 - 학습 목표
-- Gap의 중요성
+- RAG 개념 설명 없음 (윤경생 강의 참조)
+- 일반 저널 vs Nature/Science Gap 차이
 
-#### Part 1: Gap 분류 (3 슬라이드, 5분)
-- Conceptual Gap vs Incremental Gap
-- 왜 Conceptual Gap인가?
-- Bad vs Good Gap 예시
+#### Part 1: Gap 분류 (6 슬라이드, 6분)
+- Incremental vs Conceptual Gap 구분
+- Gap Quality 평가 (5가지 예시 투표)
+- Incremental → Conceptual 변환 실습
 
-#### Part 2: 3-Stage Validation (4 슬라이드, 6분)
-- Stage 1: Existence Check
-- Stage 2: Significance Test
-- Stage 3: Feasibility Assessment
-- 전체 Validation Workflow
+#### Part 2: 3-Stage Validation (5 슬라이드, 6분)
+- Stage 1: Landscape Mapping (AI 프롬프트 3가지)
+- Stage 2: Critical Analysis (4가지 한계 유형)
+- Stage 3: Gap Validation (False gap 방지)
 
-#### Part 3: False Gap 방지 (2 슬라이드, 3분)
-- 3가지 False Gap 유형
-- AI로 검증하기
+#### Part 3: Gap Statement Crafting (4 슬라이드, 4분)
+- 약한 vs 강한 Gap Statement
+- AI 4-Step 강화 워크플로우
+- Gap-Driven 문헌 리뷰 구조
 
-#### Part 4: Workshop Prep (2 슬라이드, 3분)
-- Cross-Disciplinary Gap Mining
-- 오늘의 워크샵 안내
+#### Part 4: Workshop & 과제 (4 슬라이드, 3분)
+- 70분 Workshop 구조 (4 phases)
+- 과제 안내
+- 프롬프트 레시피 예시 3가지
 
-### 핵심 시각화 요소
-```markdown
-> Image suggestion: A Venn diagram showing "Known" and "Unknown" circles,
-> with "Gap" in the overlapping area, and "Conceptual" vs "Incremental"
-> labeled with different colors
-
-> Image suggestion: A 3-step validation flowchart with checkboxes for
-> Existence, Significance, and Feasibility, with red flags for false gaps
-
-> Image suggestion: A network diagram showing a research topic at the center
-> with connections to different disciplines (neuroscience, psychology, medicine,
-> AI) representing cross-disciplinary gap opportunities
-```
-
-### 예상 작업 시간
+### 제작 시간
 - Markdown 작성: 1.5시간
 - Image hints 추가: 30분
 - **총 2시간**
 
+### 핵심 특징
+- **Gamma AI 최적화**: 모든 주요 슬라이드에 Image hints (30+ suggestions)
+- **Visual cues**: Emoji로 개념 표현 (🔍🚨⚙️🧠💡)
+- **Before/After 패턴**: ❌ Incremental → ✅ Conceptual 변환
+- **3-Stage 시각화**: Landscape → Critical → Validation funnel
+- **실전 False Gap 예시**: 실제 학생 사례 (2,847편 → 0편 정제)
+
+### 핵심 Image Hints
+```markdown
+> 3-stage funnel (research papers → filtering → validated gaps)
+> Transformation diagram (incremental → conceptual expansion)
+> Validation checkpoint (4 gates: Scholar, AI, Peer, Expert)
+> Gap statement refinement (rough draft → polished version)
+> Workshop collaboration atmosphere (students at different stations)
+```
+
 ---
 
-## ⏳ Week 4: 대기 중
+## ✅ Week 4: 완료 (2025-10-10)
 
-### 강의 주제
-"AI 활용 III - Methods/Results Bulletproofing"
+### 파일
+1. **`week4/lesson_slides_gamma.md`** - Gamma AI 최적화 버전 (주 사용)
+2. **`week4/lecture_notes.md`** - 상세 참고 자료 (750 lines)
+3. **`claudedocs/week4_revision_strategy.md`** - 전략 문서
 
-### 참고 자료
-- `week4/lecture_notes.md` (718 lines)
-- `claudedocs/week4_revision_strategy.md`
-- `claudedocs/figma_workshop_weeks2-6.md` (Week 4 섹션)
+### 슬라이드 구조 (35+ 슬라이드, 15-20분)
 
-### 예상 슬라이드 구조 (12-15 슬라이드, 15-20분)
-
-#### Part 0: Orientation (2 슬라이드, 3분)
+#### Part 0: Orientation (4 슬라이드, 4분)
 - 학습 목표
-- 왜 Bulletproofing인가?
+- CoT 전제 (윤경생 강의 참조)
+- 수업 전 과제 확인
 
-#### Part 1: Top 10 Rejection Reasons (3 슬라이드, 5분)
+#### Part 1: Top 10 Rejection Reasons (4 슬라이드, 5분)
 - Methods 거부 사유 Top 5
 - Results 거부 사유 Top 5
-- 실제 리뷰 코멘트 예시
+- 진단 실습 (Bad Methods 예시)
+- AI vs Human 진단 비교
 
-#### Part 2: Reproducibility Checklist (4 슬라이드, 6분)
-- 6가지 필수 요소
-- Before/After 예시 (불충분 vs 충분한 설명)
-- AI로 체크하기
-- Common Pitfalls
+#### Part 2: Methods Bulletproofing (7 슬라이드, 9분)
+- Reproducibility Checklist (6가지 요소)
+- Before/After 예시 (재현 불가능 vs 가능)
+- AI Reproducibility Audit 프롬프트
+- Control Strategy Validation (4가지 유형)
+- Alternative Explanations 찾기
+- AI Alternative Explanation Generator
+- Power & Sample Size Justification
 
-#### Part 3: Statistical Rigor (2 슬라이드, 3분)
-- Overclaiming 방지
-- Effect Size + Confidence Intervals
+#### Part 3: Results Bulletproofing (7 슬라이드, 9분)
+- Overclaiming Prevention (흔한 패턴 표)
+- Before/After Overclaiming 예시
+- AI Claim Checker 프롬프트
+- Statistical Rigor Verification (6 checkpoints)
+- Before/After 통계적 엄밀성
+- AI Statistical Review 프롬프트
+- Transparent Reporting
 
-#### Part 4: Workshop Prep (2 슬라이드, 3분)
-- Red Team vs Blue Team 게임
-- 오늘의 워크샵 안내
+#### Part 4: Advanced Bulletproofing (5 슬라이드, 8분)
+- Preemptive Reviewer Response
+- 예측 질문 예시
+- Methods/Results Cross-Validation
+- Effect Size + Significance 통합 보고
+- Practical Significance 평가
+- Figure/Table Optimization
 
-### 핵심 시각화 요소
-```markdown
-> Image suggestion: Ten red flags arranged in two columns (Methods vs Results),
-> each flag showing a common rejection reason with icon
+#### Part 5: Peer Review & Workshop (5 슬라이드, 6분)
+- Structured Peer Review Protocol
+- Workshop 실습 구조 (4 phases, 90분)
+- 과제 안내
+- 핵심 메시지
+- 토론 주제
 
-> Image suggestion: A checklist with 6 items showing reproducibility elements
-> (Sample, Materials, Procedure, Analysis, Controls, Statistics), with some
-> checked and some unchecked
+#### Part 6: 마무리 (3 슬라이드, 4분)
+- 다음 주 준비사항
+- 참고 자료
+- 핵심 Takeaway (3가지)
 
-> Image suggestion: Two teams facing each other - Red Team (attackers with
-> magnifying glasses) finding weaknesses, Blue Team (defenders with shields)
-> fixing issues, with scoreboard
-```
-
-### 예상 작업 시간
+### 제작 시간
 - Markdown 작성: 1.5시간
 - Image hints 추가: 30분
 - **총 2시간**
 
----
+### 핵심 특징
+- **Gamma AI 최적화**: 모든 주요 슬라이드에 Image hints (35+ suggestions)
+- **Visual cues**: Emoji로 개념 표현 (🛡️⚠️✅❌🔍📊🎯)
+- **Before/After 패턴**: ❌ Weak → ✅ Strong bulletproofing
+- **Defense metaphor**: Fortress, shields, attacks 시각화
+- **실전 심리학 예시**: SART task, anxiety measures, meditation studies
 
-## ⏳ Week 5: 대기 중
-
-### 강의 주제
-"Discussion Section 작성 전략"
-
-### 참고 자료
-- `week5/lecture_notes.md`
-- `claudedocs/figma_workshop_weeks2-6.md` (Week 5 섹션)
-
-### 예상 슬라이드 구조 (12-15 슬라이드, 15-20분)
-
-#### Part 0: Orientation (2 슬라이드, 3분)
-- 학습 목표
-- Discussion의 역할 (Narrow → Broad 복귀)
-
-#### Part 1: 4-Paragraph Structure (4 슬라이드, 6분)
-- Paragraph 1: Summary of Findings
-- Paragraph 2: Interpretation
-- Paragraph 3: Limitations (솔직하게)
-- Paragraph 4: Implications (과장 없이)
-
-#### Part 2: 피해야 할 표현 (3 슬라이드, 5분)
-- Overclaiming ("Revolutionary", "First", "Unprecedented")
-- Underselling (한계만 나열)
-- Balanced Discussion 예시
-
-#### Part 3: AI 활용 전략 (2 슬라이드, 3분)
-- Limitation Honesty Check
-- Implication Expansion (과학적 + 사회적)
-
-#### Part 4: Workshop Prep (2 슬라이드, 3분)
-- 4단 구조 작성 실습
-- 오늘의 워크샵 안내
-
-### 핵심 시각화 요소
+### 핵심 Image Hints
 ```markdown
-> Image suggestion: Four building blocks stacked vertically showing Discussion
-> structure (Summary → Interpretation → Limitations → Implications), with
-> arrows showing logical flow
-
-> Image suggestion: A balance scale showing "Claims" on one side and "Evidence"
-> on the other, perfectly balanced, representing honest Discussion
-
-> Image suggestion: Warning signs showing words to avoid ("Revolutionary",
-> "Unprecedented", "First ever") crossed out in red
+> Fortress with shields protecting research paper from reviewer arrows
+> Rejected manuscript with 5 red rejection stamps
+> Balance scale (claims vs data mismatch)
+> Detective reviewer examining Methods with magnifying glass
+> Six-part checklist board (reproducibility elements)
+> Confused vs confident researcher (before/after replication)
+> Four-quadrant diagram (4 control types)
+> Alternative explanations attacking main finding, shields blocking
+> Tightrope walker balancing on "Data support" rope
+> Complete statistical reporting pyramid (4 layers)
+> Iceberg metaphor (transparent reporting)
+> Chess game (anticipating reviewer moves)
+> Workshop timeline (4 phases)
 ```
 
-### 예상 작업 시간
+---
+
+## ✅ Week 5: 완료 (2025-10-10)
+
+### 파일
+1. **`week5/lesson_slides_gamma.md`** - Gamma AI 최적화 버전 (주 사용)
+2. **`week5/lecture_notes.md`** - 상세 참고 자료 (300+ lines)
+
+### 슬라이드 구조 (35+ 슬라이드, 15-20분)
+
+#### Part 0: Orientation (3 슬라이드, 3분)
+- 학습 목표
+- Top 10 Rejection Reasons (Discussion 특화)
+- 탑 5% 논문 = 5요소 (Novelty 20 + Rigor 30 + Clarity 20 + Impact 20 + Presentation 10)
+
+#### Part 1: 3-Pass Revision 전략 (6 슬라이드, 6분)
+- Macro Pass (구조 검증)
+- Meso Pass (섹션/문단 응집성)
+- Micro Pass (문장/단어 정교화)
+- Before/After 예시 (각 Pass별)
+- AI 활용 프롬프트 (3개)
+
+#### Part 2: AI Reviewer 시뮬레이션 (8 슬라이드, 8분)
+- 3명의 AI Reviewers 소개
+  - Reviewer 1: Methodological Rigor Specialist
+  - Reviewer 2: Theoretical Contribution Expert
+  - Reviewer 3: Supportive but Critical Friend
+- AI Reviewer 프롬프트 레시피 (각 Reviewer별)
+- 가상 심사 결과 통합 분석
+
+#### Part 3: Peer Review Protocol (5 슬라이드, 6분)
+- Structured Peer Review Protocol (6 domains × 10 points)
+- Constructive Feedback 원칙
+- Before/After Feedback 예시
+- Self-Review Checklist (Top 5% criteria)
+
+#### Part 4: Advanced 전략 (4 슬라이드, 5분)
+- Discussion Section 작성 (4단 구조)
+- Limitation 솔직하게 쓰기
+- Implication 과장 없이 쓰기
+- AI Discussion 강화 프롬프트
+
+#### Part 5: Workshop 구조 (3 슬라이드, 3분)
+- 3단계 워크샵 (AI Reviewer → Peer Review → Self-Revision)
+- 과제 안내 (전체 논문 3-Pass Revision)
+- 다음 주 준비사항
+
+### 제작 시간
 - Markdown 작성: 1.5시간
 - Image hints 추가: 30분
 - **총 2시간**
 
+### 핵심 특징
+- **Gamma AI 최적화**: 모든 주요 슬라이드에 Image hints (35+ suggestions)
+- **Visual cues**: Emoji로 개념 표현 (🔍📊🤖👥⚠️✅❌)
+- **Before/After 패턴**: ❌ Weak → ✅ Strong revision
+- **3-Pass Journey**: Macro → Meso → Micro 시각화
+- **AI Reviewer 캐릭터화**: 3명의 다른 성향 Reviewers
+- **실전 심리학 예시**: Working memory, anxiety, fMRI studies
+
+### 핵심 Image Hints
+```markdown
+> Three-stage funnel showing paper refinement (Macro → Meso → Micro)
+> Three AI reviewers at round table examining manuscript with different tools
+> Six-domain radar chart showing comprehensive peer review coverage
+> Balance scale showing honest Limitation vs Impact (equilibrium)
+> Transformation journey from rough draft to polished Top 5% paper
+> Workshop collaboration with three stations (AI, Peer, Self)
+```
+
 ---
 
-## ⏳ Week 6: 대기 중
+## ✅ Week 6: 완료 (2025-10-10)
 
-### 강의 주제
-"Peer Review & Revision + Researcher Qualification"
+### 파일
+1. **`week6/lesson_slides_gamma.md`** - Gamma AI 최적화 버전 (주 사용)
+2. **`week6/lecture_notes.md`** - 상세 참고 자료 (300+ lines)
+3. **`week6/template_6.5_candidate_background_builder.md`** - K-Award 템플릿
+4. **`week6/example_6.7_candidate_section_before_after.md`** - Before/After 예시
+5. **`week6/example_6.8_training_goals_alignment_matrix.md`** - 정렬 매트릭스
 
-### 참고 자료
-- `week6/lecture_notes.md`
-- `week6/template_6.5_candidate_background_builder.md`
-- `week6/example_6.7_candidate_section_before_after.md`
-- `week6/example_6.8_training_goals_alignment_matrix.md`
-- `claudedocs/figma_workshop_weeks2-6.md` (Week 6 섹션)
+### 슬라이드 구조 (40+ 슬라이드, 15-20분)
 
-### 예상 슬라이드 구조 (12-15 슬라이드, 15-20분)
+#### Part 0: Orientation (3 슬라이드, 3분)
+- 학습 목표 (6주 종합)
+- Week 6 주제: Research Proposal + Researcher Qualification
+- 논문 vs 연구계획서 비교
 
-#### Part 0: Orientation (2 슬라이드, 3분)
-- 학습 목표
-- Peer Review + Researcher Qualification 통합
+#### Part 1: 3-Stage Structure (5 슬라이드, 5분)
+- Problem Setup (30%): Why This Problem Matters
+- Solution Proposal (50%): Our Approach & Methods
+- Impact Articulation (20%): Why This Matters Beyond Academia
+- Broader Impact Framework (NSF 기준)
+- Before/After Structure 예시
 
-#### Part 1: Structured Peer Review (3 슬라이드, 5분)
-- Week 2-5 체크리스트 통합
-- Round-Robin Review Protocol
-- 건설적 피드백 원칙
+#### Part 2: 5 Hook Patterns (6 슬라이드, 7분)
+- Hook 1: Problem-Driven (우울증 치료 저항성)
+- Hook 2: Opportunity-Driven (뉴로피드백 신기술)
+- Hook 3: Challenge-Driven (문화차 미스터리)
+- Hook 4: Vision-Driven (정신건강 혁명)
+- Hook 5: Controversy-Driven (Open Science 논쟁)
+- AI Hook Generator 프롬프트
 
-#### Part 2: Researcher Qualification (4 슬라이드, 6분)
-- CV vs Narrative (Before/After)
+#### Part 3: Impact Pyramid (4 슬라이드, 5분)
+- Immediate Impact (1-2년): 직접 기여
+- Medium-term Impact (3-5년): 확장 응용
+- Long-term Impact (10+년): 비전과 사회 변화
+- Storytelling with Impact Layers
+- AI Impact Expander 프롬프트
+
+#### Part 4: Funding Agency 심사 기준 (5 슬라이드, 6분)
+- NIH vs NSF 평가 기준 비교
+- Innovation (혁신성) 평가 요소
+- Approach (접근법) 평가 요소
+- Environment (연구 환경) 평가 요소
+- Broader Impacts (사회적 파급효과)
+- AI Reviewer 시뮬레이션 (Funding Agency 관점)
+
+#### Part 5: Researcher Qualification (8 슬라이드, 8분)
 - K-Award Candidate Section 구조
+- CV vs Narrative Transformation
+- Before/After 예시 (bullet points → story)
+- Personal Journey Storytelling
+- Research Competence 증명
 - Training Goals Alignment Matrix
-- Research Content vs Researcher Qualification
+- Mentorship Team & Resources
+- AI Candidate Section Builder 프롬프트
 
-#### Part 3: Revision Strategies (2 슬라이드, 3분)
-- Major vs Minor Revisions
-- AI-Assisted Revision
+#### Part 6: 6주 회고 (4 슬라이드, 4분)
+- Week 1: Human-Centered Writing 원칙
+- Week 2-4: AI 활용 (초록, Gap, Methods/Results)
+- Week 5: AI Reviewer & 3-Pass Revision
+- Week 6: Research Proposal & Qualification
+- 40+ AI 프롬프트 레시피 라이브러리
+- 탑 5% 논문을 향한 여정
 
-#### Part 4: Workshop Prep (2 슬라이드, 3분)
-- Comprehensive Review + Candidate Section 작성
-- 오늘의 워크샵 안내
+#### Part 7: Workshop & 마무리 (5 슬라이드, 5분)
+- Workshop 구조 (3단계, 70분)
+- Research Proposal Hook 작성
+- Candidate Section 작성
+- Peer Feedback & Recipe Sharing
+- 수고하셨습니다! 축하 메시지
 
-### 핵심 시각화 요소
-```markdown
-> Image suggestion: Students sitting in a circle passing papers, with arrows
-> showing round-robin review flow, and checkmarks appearing as each review
-> is completed
-
-> Image suggestion: Two documents side-by-side - left showing CV-style bullet
-> points (lifeless), right showing narrative paragraph (engaging story),
-> with transformation arrow
-
-> Image suggestion: A 3-way Venn diagram showing Training Goals, Research Aims,
-> and Mentors/Resources overlapping, with "Perfect Alignment" at the center
-
-> Image suggestion: A complete research proposal with all sections highlighted
-> (Abstract, Introduction, Methods, Results, Discussion) plus a new section
-> "Candidate's Background" glowing to show its importance
-```
-
-### 예상 작업 시간
+### 제작 시간
 - Markdown 작성: 1.5시간
 - Image hints 추가: 30분
 - **총 2시간**
+
+### 핵심 특징
+- **Gamma AI 최적화**: 모든 주요 슬라이드에 Image hints (40+ suggestions)
+- **Visual cues**: Emoji로 개념 표현 (📝🌍🎣💡🤖👤✨🎓)
+- **Before/After 패턴**: ❌ CV-style → ✅ Narrative story
+- **5 Hook 패턴**: 각 패턴별 심리학 예시 포함
+- **Impact Pyramid**: 3-level 시각화 (Immediate → Medium → Long-term)
+- **CV Transformation**: Lifeless bullets → Engaging narrative
+- **6주 회고**: 전체 과정 통합 및 성취 축하
+
+### 핵심 Image Hints
+```markdown
+> Three-part structure pyramid (Problem 30% → Solution 50% → Impact 20%)
+> Five different fishing hooks showing different opening strategies
+> Impact pyramid with three layers (immediate, medium, long-term)
+> NIH vs NSF evaluation criteria comparison table with checkmarks
+> CV transformation before/after (bullet points morphing into flowing narrative)
+> Three-way Venn diagram (Training Goals × Research Aims × Mentors/Resources)
+> Celebration scene with 6-week journey map and achievement badges
+> Students celebrating completion with Top 5% paper trophy
+```
+
+---
 
 ---
 
@@ -397,10 +486,21 @@
 
 | 날짜 | 업데이트 내용 | 작업자 |
 |------|--------------|--------|
+| 2025-10-10 | ✅ **전체 과정 완료** - Week 5-6 슬라이드 완료 (6/6 = 100%) | Claude |
+| 2025-10-10 | Week 6 슬라이드 완료 (40+ slides, Research Proposal & Qualification) | Claude |
+| 2025-10-10 | Week 5 슬라이드 완료 (35+ slides, AI Reviewer & 3-Pass Revision) | Claude |
+| 2025-10-10 | Week 4 슬라이드 완료 (35+ slides, Methods/Results Bulletproofing) | Claude |
+| 2025-10-10 | Week 3 슬라이드 완료 (30+ slides, Gap Discovery) | Claude |
 | 2025-10-10 | Week 2 슬라이드 완료, Gamma AI 전략 문서 작성 | Claude |
 | 2025-10-10 | 진행 상황 문서 최초 작성 | Claude |
 
 ---
 
 **Last Updated**: 2025-10-10
-**Next Task**: Week 3 슬라이드 제작 (예상 2시간)
+**Status**: ✅ **전체 슬라이드 덱 제작 완료 (Week 1-6)**
+
+**남은 작업**:
+- Week 1 Figma 템플릿 파일 생성 (30분)
+- Week 1 교재 최종 점검
+- Week 3 Figma 워크샵 캔버스 설정 (30분)
+- AI 프롬프트 레시피 검증 (Week 2-6에서 10개 샘플링)
