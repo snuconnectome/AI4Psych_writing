@@ -1,0 +1,122 @@
+# Prompts Used for Week 1 Assignment
+
+## 1. Initial Request
+안뇽.. 내가 최근 .claude에 writing agent를 빌드했는데 그걸 기반으로 리뷰 페이퍼 인트로 파트를 작성하고 싶어
+
+내가 제일 먼저 해보고 싶은 건 /review-paper 폴더에 있는 pdf 두 개 내용을 기반으로 내가 새로 작성하려고 하는 리뷰페이퍼의 intro 파트 초안을 작성하는거야. 새로 쓰는 리뷰의 주제는 addiction + NIBS + neurocognitive/computational(RLDM) mechanism 이야. pdf 두 개는 각각 addiction + RLDM, addiction + TMS/tDCS 에 대해 내가 작성한 퀄 페이퍼야. 어떤 식으로 에이전트를 활용할 수 있을까? 필요하다면 추가적으로 에이전트를 생성해줘. 너가 직접 pdf 를 읽으면 자꾸 오류가 나니까 (파일 용량이 커서), 워크플로우를 짜서 내가 실행해볼 수 있도록 해줘.
+
+## 2. Scope Clarification
+ㅇㅇ 좋아. 참고로 나는 addiction에서 NIBS를 적용하면서 그 neurocognitive mechanism에 대해 함께 살펴본 (가령, cognitive task나 computational modeling을 사용한) 선행연구들에 대한 systematic review를 진행하는 게 목적이야. 이걸 참고해서 워크플로우나 프롬프트 수정이 필요하면 해주고, 네가 짠 워크플로우대로 일을 진행시켜줘.
+
+## 3. PDF Extraction with Task/Explore Agent
+
+For PhD_Qual_Q1_final.pdf:
+```
+I need to extract key concepts from the Introduction section of this PDF about addiction and RLDM.
+
+Focus on:
+1. Main theoretical frameworks (RLDM, reinforcement learning)
+2. Neural circuits and mechanisms (dopamine, reward prediction error)
+3. Key findings about addiction as a decision-making disorder
+4. Gaps identified in the literature
+
+Please read only the Introduction section and extract these concepts in a structured format.
+```
+
+For PhD_Qual_Q2_final.pdf:
+```
+I need to extract key concepts from the Introduction section of this PDF about addiction and NIBS (TMS/tDCS).
+
+Focus on:
+1. NIBS techniques and parameters (TMS types, tDCS protocols)
+2. Target brain regions (dlPFC, ACC, mPFC)
+3. Clinical outcomes and mechanisms
+4. ANY mentions of cognitive tasks or computational modeling used with NIBS
+5. Gaps identified in the literature
+
+Please read only the Introduction section and extract these concepts in a structured format.
+```
+
+## 4. Synthesis Strategy Development
+
+No explicit prompt - agent autonomously created synthesis-strategy.md based on extracted concepts from Q1 and Q2, identifying:
+- Overlapping concepts (shared brain circuits, decision-making framework)
+- Complementary perspectives (Q1=mechanisms, Q2=interventions)
+- Bridging concepts (NIBS targets circuits implementing RLDM)
+- Systematic review gap (no synthesis of NIBS + neurocognitive mechanism studies)
+- Introduction structure using funnel approach
+
+## 5. Introduction Draft Generation (synthesize-intro approach)
+
+Provided to agent:
+- Extracted concepts from Q1 (RLDM mechanisms)
+- Extracted concepts from Q2 (NIBS interventions)
+- Synthesis strategy document
+- Review aims and scope:
+  * Systematic review of NIBS + neurocognitive/computational assessment in addiction
+  * NOT just synthesizing two topics separately
+  * Focus on INTERSECTION: studies combining NIBS with cognitive tasks OR computational modeling
+  * Inclusion criteria: NIBS + cognitive assessment + addiction populations
+
+Agent generated intro-v1.md (6 paragraphs, funnel structure, ~1150 words)
+
+## 6. Writing Review with /writing-review
+
+Slash command executed: /writing-review
+
+Agent analyzed intro-v1.md using Duke precision writing principles:
+- Subjects and Actions (nominalizations → verbs)
+- Cohesion and Coherence (old info first, new info last)
+- Concision and Simplicity (remove needless words)
+
+Feedback applied to create intro-v2.md:
+- Removed 12 nominalizations (e.g., "demonstrated the ability to" → "can")
+- Fixed subject-verb distance issues
+- Simplified complex subjects
+- Removed 15+ wordy phrases
+- Result: 15% reduction (1150 → 980 words)
+
+## 7. Citation Strategy with /citation-help
+
+Slash command executed: /citation-help
+
+Agent analyzed intro-v2.md for citation needs:
+- Identified 21 uncited claims requiring attribution
+- Recommended 25-40 citations total
+- Prioritized critical citations:
+  * Schultz et al. 1997 (dopamine as RPE)
+  * Daw et al. 2005 (model-based/model-free)
+  * NIBS meta-analyses in addiction
+  * 3-5 examples of NIBS + cognitive tasks in addiction (CRITICAL for Para 4)
+  * Computational psychiatry reviews
+
+- Provided citation density recommendations by paragraph
+- Suggested citation integration strategies (avoid citation strings)
+- Identified critical verification need: Para 4 claims about studies combining NIBS + cognitive/computational assessment
+
+## 8. Session Backup
+
+Created SESSION-LOG.md to document entire workflow, decisions, and next steps for future sessions.
+
+---
+
+## Key Workflow Summary
+
+1. Extract concepts from source PDFs (Q1: RLDM, Q2: NIBS) using Explore agents
+2. Create synthesis strategy identifying overlapping/complementary/bridging concepts
+3. Draft introduction using funnel structure (broad → narrow → gap → scope)
+4. Review and revise using /writing-review (Duke principles)
+5. Develop citation strategy using /citation-help
+6. [Next: Verify Para 4 claims, gather citations, create final draft]
+
+---
+
+## Agents/Tools Used
+
+- Task agent with Explore subagent (for reading large PDFs)
+- /writing-review (Duke precision writing principles)
+- /citation-help (citation gap analysis)
+- Custom agents created:
+  * /extract-concepts (extract key concepts from papers)
+  * /synthesize-intro (synthesize multiple papers into introduction)
+  * WORKFLOW-synthesis.md (3-phase workflow)
