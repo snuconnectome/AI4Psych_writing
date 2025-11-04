@@ -1,8 +1,9 @@
 # Multi-Agent Writing System Dependencies
 
 # LLM API clients
-openai>=1.0.0           # OpenAI API (GPT-4, GPT-3.5-turbo)
-anthropic>=0.7.0        # Anthropic API (Claude models)
+openai>=1.0.0                    # OpenAI API (GPT-4, GPT-3.5-turbo)
+anthropic>=0.7.0                 # Anthropic API (Claude models)
+google-generativeai>=0.3.0       # Google Gemini API
 
 # Utility libraries
 python-dotenv>=1.0.0    # Environment variable management

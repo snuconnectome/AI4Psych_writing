@@ -74,6 +74,11 @@ class MultiAgentOrchestrator:
             if not key:
                 raise ValueError("ANTHROPIC_API_KEY environment variable not set")
             return key
+        elif self.provider == "gemini":
+            key = os.getenv("GEMINI_API_KEY")
+            if not key:
+                raise ValueError("GEMINI_API_KEY environment variable not set")
+            return key
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 
@@ -83,6 +88,8 @@ class MultiAgentOrchestrator:
             return "gpt-4"
         elif self.provider == "anthropic":
             return "claude-sonnet-4-20250514"
+        elif self.provider == "gemini":
+            return "gemini-2.0-flash-exp"
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 
@@ -94,6 +101,10 @@ class MultiAgentOrchestrator:
         elif self.provider == "anthropic":
             import anthropic
             return anthropic.Anthropic(api_key=self.api_key)
+        elif self.provider == "gemini":
+            import google.generativeai as genai
+            genai.configure(api_key=self.api_key)
+            return genai.GenerativeModel(self.model)
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 

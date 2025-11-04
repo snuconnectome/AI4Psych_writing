@@ -110,6 +110,18 @@ class AgentBase(ABC):
             )
             return response.content[0].text
 
+        elif hasattr(self.llm_client, 'generate_content'):
+            # Google Gemini client
+            full_prompt = f"{self.system_prompt}\n\n---\n\n{user_prompt}"
+            response = self.llm_client.generate_content(
+                full_prompt,
+                generation_config={
+                    "temperature": self.temperature,
+                    "max_output_tokens": 8192,
+                }
+            )
+            return response.text
+
         else:
             raise ValueError(f"Unknown LLM client type: {type(self.llm_client)}")
 
