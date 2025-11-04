@@ -1,0 +1,42 @@
+Agent: Introduction Writer Agent
+============================================================
+
+The draft introduction provides a solid structural foundation, but several sections require significant development to become a comprehensive and well-supported academic introduction.
+
+Here is guidance on what sections need more development:
+
+1.  **Opening with Broad Context (Paragraph 1):**
+    *   **Need for Development:** The current draft placeholder, "In recent years, there has been growing interest in... [Expand on the broader context of your research topic]. This area of research is important because... [Explain significance]," is very general.
+    *   **Guidance:** Begin by establishing the profound impact and rapid advancements of Large Language Models (LLMs) in various domains, particularly their emerging capabilities in understanding and processing human language. Connect this to the significance of emotional intelligence and cognitive appraisal within human communication, setting the stage for why LLMs' ability in this area is a critical field of study.
+
+2.  **Literature Review (Paragraphs 2-3):**
+    *   **Need for Development:** These paragraphs are entirely placeholders: "Previous research has demonstrated... [Cite relevant studies]. For example, studies have shown that... [Summarize key findings]. Additionally, other researchers have found... [More literature]."
+    *   **Guidance:** This is a crucial section that needs substantial content.
+        *   Discuss existing literature on cognitive appraisal theories (e.g., Lazarus, Scherer) and their role in emotion generation.
+        *   Review prior work on natural language processing (NLP) and emotion detection, highlighting both traditional methods and early applications of LLMs in this area.
+        *   Specifically, discuss recent findings regarding LLMs' ability to identify cognitive appraisal and emotional outcomes, as well as their use in generating empathetic responses and targeted reappraisals, as mentioned in your abstract. Provide specific examples or types of studies that support these claims.
+        *   **Crucially, add citations for all claims and studies mentioned.**
+
+3.  **Research Gap Identification (Paragraph 4):**
+    *   **Need for Development:** The placeholder, "However, despite these advances, several questions remain unanswered. Specifically, it is still unclear... [Identify gap]. This gap in knowledge limits our understanding of... [Explain limitation]," needs to be specific.
+    *   **Guidance:** Clearly articulate the specific gap identified in your abstract: "However, it is unclear which appraisal dimensions they prioritize." Elaborate on why this lack of clarity is a significant limitation for advancing LLM capabilities in emotional reasoning and for effective human-AI collaboration.
+
+4.  **Current Study Purpose (Paragraph 5):**
+    *   **Need for Development:** The current placeholder, "The present study addresses this gap by... [Based on: Large language models (LLMs) are advancing in their ability to identify cognitive appraisal and its corresponding emotional outcome in human-written texts]. We hypothesize that... [State hypotheses]. To test this, we... [Brief method]," is too vague.
+    *   **Guidance:** Clearly state the precise objectives of your study based on the abstract. These include:
+        *   Identifying the author's emotion from seven categories.
+        *   Explaining the rationale for emotion selection.
+        *   Rating appraisal intensity from human text.
+        *   Measuring the accuracy of emotion alignment between models and human annotators.
+        *   Assessing label agreement of appraisal dimensions between human annotators and models.
+    *   While the draft includes a section for hypotheses, if your study is primarily exploratory or descriptive in its initial phases, you might focus more on clearly stated research questions rather than formal hypotheses, unless specific predictions are indeed made. Briefly outline the methodological approach (e.g., prompting models, using a specific dataset) as indicated in the abstract.
+
+5.  **Significance and Implications (Paragraph 6):**
+    *   **Need for Development:** The placeholder, "This research contributes to the field by... [Explain contribution]. The findings have important implications for... [Discuss implications]," needs to be detailed.
+    *   **Guidance:** Expand on how your findings contribute to the understanding of LLMs' emotional reasoning capabilities. Explicitly discuss the implications for enhanced human-AI collaboration, the development of more empathetic AI systems, and potential applications in fields such as mental health support or intelligent tutoring. Reiterate the future directions mentioned in the abstract for refining their ability for emotional reasoning.
+
+**General Guidance:**
+*   **Citations:** Integrate relevant citations throughout the literature review and when discussing previous work.
+*   **Cohesion and Flow:** Ensure smooth logical transitions between paragraphs and ideas. Each paragraph should build upon the previous one.
+*   **Specificity:** Replace all bracketed placeholders with concrete details from your research.
+*   **Word Count:** A comprehensive introduction for a research paper is typically substantial, so aim to expand on each point with sufficient detail and evidence.
