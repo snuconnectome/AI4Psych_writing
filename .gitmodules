@@ -1,4 +1,4 @@
 [submodule "group/AI-CoScientist"]
-	path = group/AI-CoScientist
+	path = group/jiookcha/AI-CoScientist
 	url = https://github.com/Transconnectome/AI-CoScientist.git
 	branch = feature/nemotron-hybrid-integration
