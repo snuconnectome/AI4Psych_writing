@@ -85,8 +85,10 @@ class AgentBase(ABC):
             LLM response as string
         """
         # Detect which LLM client is being used
-        if hasattr(self.llm_client, 'chat'):
-            # OpenAI client
+        client_type = type(self.llm_client).__name__
+
+        if hasattr(self.llm_client, 'chat') and hasattr(self.llm_client.chat, 'completions'):
+            # OpenAI or Groq client (both use same API)
             response = self.llm_client.chat.completions.create(
                 model=self.model,
                 messages=[
@@ -146,7 +148,15 @@ class AgentBase(ABC):
         try:
             return json.loads(llm_output)
         except json.JSONDecodeError as e:
-            raise ValueError(f"Failed to parse JSON from LLM output: {e}\n\nOutput: {llm_output}")
+            # Try to fix common JSON issues (control characters in strings)
+            try:
+                # Replace literal newlines in JSON strings with escaped newlines
+                import re
+                fixed_output = re.sub(r'(?<!\\)"([^"]*)\n', r'"\1\\n', llm_output)
+                fixed_output = re.sub(r'\n([^"]*)"', r'\\n\1"', fixed_output)
+                return json.loads(fixed_output)
+            except:
+                raise ValueError(f"Failed to parse JSON from LLM output: {e}\n\nOutput: {llm_output[:500]}...")
 
 
 class WriterAgent(AgentBase):
@@ -370,3 +380,35 @@ Please provide your integrated output in JSON format as specified in your system
 
         llm_output = self.call_llm(user_prompt)
         return self.parse_json_output(llm_output)
+
+
+
+class LaTeXConverterAgent(AgentBase):
+    """
+    LaTeX Converter Agent: Converts LaTeX to plain text.
+    """
+
+    def process(self, input_text: str, context: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """
+        Process LaTeX text and convert to plain text.
+
+        Args:
+            input_text: LaTeX text to convert
+            context: Optional context (unused for now)
+
+        Returns:
+            Plain text version with structure info and warnings
+        """
+        context = context or {}
+
+        user_prompt = f"""
+Input LaTeX Text:
+{input_text}
+
+Please convert this LaTeX to clean plain text following the specifications in your system prompt.
+Return your output in JSON format with: plain_text, structure, and warnings.
+"""
+
+        llm_output = self.call_llm(user_prompt)
+        return self.parse_json_output(llm_output)
+

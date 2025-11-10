@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 from typing import Dict, Any, Optional, List
 from agent_base import (
+    LaTeXConverterAgent,
     WriterAgent,
     LiteratureValidatorAgent,
     QualityCheckerAgent,
@@ -79,6 +80,11 @@ class MultiAgentOrchestrator:
             if not key:
                 raise ValueError("GEMINI_API_KEY environment variable not set")
             return key
+        elif self.provider == "groq":
+            key = os.getenv("GROQ_API_KEY")
+            if not key:
+                raise ValueError("GROQ_API_KEY environment variable not set")
+            return key
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 
@@ -90,6 +96,8 @@ class MultiAgentOrchestrator:
             return "claude-sonnet-4-20250514"
         elif self.provider == "gemini":
             return "gemini-2.0-flash-exp"
+        elif self.provider == "groq":
+            return "llama-3.3-70b-versatile"  # Best free model
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 
@@ -105,12 +113,24 @@ class MultiAgentOrchestrator:
             import google.generativeai as genai
             genai.configure(api_key=self.api_key)
             return genai.GenerativeModel(self.model)
+        elif self.provider == "groq":
+            from groq import Groq
+            return Groq(api_key=self.api_key)
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 
     def _init_agents(self) -> Dict[str, Any]:
         """Initialize all agents."""
         agents = {}
+
+        # LaTeX Converter Agent (00 - preprocessing)
+        agents['latex_converter'] = LaTeXConverterAgent(
+            name="latex_converter",
+            system_prompt_path=str(self.agents_dir / "00_latex_converter_agent.md"),
+            llm_client=self.llm_client,
+            model=self.model,
+            temperature=0.3  # Lower temperature for accurate conversion
+        )
 
         # Writer Agent
         agents['writer'] = WriterAgent(
@@ -226,9 +246,27 @@ class MultiAgentOrchestrator:
         print(f"Pipeline: {' → '.join([agent_name for agent_name, _ in workflow])} → coordinator")
         print()
 
+        # Auto-detect LaTeX and convert if needed
+        from latex_detector import is_latex
+        is_ltx, reason = is_latex(input_text)
+
+        if is_ltx:
+            print(f"📄 LaTeX detected: {reason}")
+            print("[latex_converter] Converting LaTeX to plain text...")
+            latex_result = self.agents['latex_converter'].process(input_text)
+            current_text = latex_result.get('plain_text', input_text)
+            context['latex_converted'] = True
+            print(f"✅ Converted: {len(current_text.split())} words")
+        else:
+            print(f"📄 Plain text detected")
+            current_text = input_text
+            context['latex_converted'] = False
+        print()
+
         # Execute agents in sequence
         agent_outputs = {}
-        current_text = input_text
+        if context.get('latex_converted'):
+            agent_outputs['latex_converter'] = latex_result
 
         for agent_name, agent_params in workflow:
             print(f"[{agent_name}] Processing...")
