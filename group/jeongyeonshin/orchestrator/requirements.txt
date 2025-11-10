@@ -1,0 +1,17 @@
+# Multi-Agent Writing System Dependencies
+
+# LLM API clients
+openai>=1.0.0                    # OpenAI API (GPT-4, GPT-3.5-turbo)
+anthropic>=0.7.0                 # Anthropic API (Claude models)
+google-generativeai>=0.3.0       # Google Gemini API
+groq>=0.4.0                      # Groq API (Fast, free inference)
+
+# Utility libraries
+python-dotenv>=1.0.0    # Environment variable management
+pydantic>=2.0.0         # Data validation
+rich>=13.0.0            # Beautiful console output
+typer>=0.9.0            # CLI interface
+
+# Optional: Local model support
+# transformers>=4.30.0    # Hugging Face models
+# torch>=2.0.0            # PyTorch for local models
