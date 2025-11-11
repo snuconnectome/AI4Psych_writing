@@ -88,48 +88,47 @@ style: |
 
 ---
 
-## Opening 차이: Before/After
+## Opening 차이: Real Example from Nature Human Behaviour (2025)
 
 <div class="columns">
 
 <div>
 
-### ❌ 일반 저널 Opening
+### ❌ 일반 저널 Opening (가상 예시)
 
 ```
-Spatial memory in rodents has
-been extensively studied using
-various behavioral paradigms.
+Large language models like GPT-4
+are becoming increasingly popular.
 
-Previous work has shown that
-hippocampal neurons play a
-role in spatial navigation.
+Previous research has investigated
+AI persuasion capabilities.
 ```
 
 **문제:**
-- 기존 연구 나열
+- 기술 트렌드 소개만
 - 왜 중요한지 불명확
-- Narrow audience (신경과학자만)
+- Narrow audience (AI 연구자만)
 
 </div>
 
 <div>
 
-### ✅ Nature Opening (Problem-Driven)
+### ✅ Nature Human Behaviour Opening (2025)
 
 ```
-Despite decades of research,
-the molecular mechanisms linking
-spatial navigation to memory
-consolidation remain unknown—
-a fundamental gap limiting
-Alzheimer's intervention strategies.
+Early work has found that LLMs can
+generate persuasive content. However,
+evidence on whether they can also
+personalize arguments to individual
+attributes remains limited, despite
+being crucial for assessing misuse.
 ```
 
 **강점:**
-- 즉시 문제 제시
-- Broad impact (Alzheimer's)
-- "Why matters" 명확
+- Problem-driven 패턴: AI 오용 위험성
+- "Despite being crucial" → 중요성 즉시 명확
+- Broad impact: AI governance, platform design
+- **순수 행동 실험 (N=900)으로도 Nature급 가능**
 
 </div>
 
@@ -287,53 +286,47 @@ frameworks for robust science.
 ### ❌ Narrow Examples
 
 ```
-"We found improved memory
-in mice."
+"We investigated AI persuasion
+in online debates."
 ```
 
 ```
-"Social media use correlates
-with anxiety in our sample."
+"GPT-4 showed higher persuasion
+rates than humans."
 ```
 
 ```
-"fMRI reveals activation in
-prefrontal cortex."
+"AI can personalize arguments
+to individuals."
 ```
 
 </div>
 
 <div>
 
-### ✅ Broad Examples
+### ✅ Broad Examples (Pair B - Nature 2025)
 
 ```
-"Targeting this pathway could
-reverse age-related cognitive
-decline."
+"Has implications for the
+governance and design of
+online platforms."
 ```
 
-```
-"Understanding digital media's
-impact is critical for 2 billion
-adolescent users worldwide."
-```
-
-```
-"This mechanism explains how
-cognitive control breaks down
-in psychiatric disorders."
-```
+**Why Better:**
+- AI governance → 정책, 규제
+- Platform design → 소셜 미디어, 민주주의
+- Misinformation → 사회적 위험
+- Cross-disciplinary: AI + Ethics + Policy
 
 </div>
 
 </div>
 
-**전략:** Scientific impact + Societal relevance + Cross-disciplinary connections
+**실제 Nature 예시:** "Our findings highlight the power of LLM-based persuasion and have **implications for the governance and design of online platforms.**" (Salvi et al., Nature Human Behaviour 2025)
 
 ---
 
-## 정량적 결과 표현
+## 정량적 결과 표현: Real Example (Pair B)
 
 <div class="columns">
 
@@ -342,47 +335,46 @@ in psychiatric disorders."
 ### ❌ 모호한 표현
 
 ```
-"We found significant
-improvements in performance."
+"GPT-4 was more persuasive
+than humans."
 ```
 
 ```
-"The method shows promising
-results."
+"AI showed significant effects
+on agreement (p<0.05)."
 ```
 
 ```
-"Treatment was effective."
+"Personalization improved
+persuasion."
 ```
 
 </div>
 
 <div>
 
-### ✅ 정량적 임팩트
+### ✅ Nature 2025 Quantitative (5가지 지표!)
 
 ```
-"Performance improved by 340%,
-exceeding theoretical predictions
-by twofold."
+"GPT-4 with personalization was
+more persuasive 64.4% of the time
+(81.2% relative increase in odds;
+95% CI: [+26.0%, +160.7%],
+P < 0.01; N = 900)."
 ```
 
-```
-"The method achieves 95% accuracy,
-outperforming existing approaches
-by 23%."
-```
-
-```
-"Symptoms reduced 4.2 points
-(95% CI: 3.1-5.3, Cohen's d=1.8)."
-```
+**5가지 정량 지표:**
+1. **64.4%** - Success rate
+2. **81.2% increase** - Effect size
+3. **95% CI** - Confidence interval
+4. **P < 0.01** - Statistical significance
+5. **N = 900** - Sample size
 
 </div>
 
 </div>
 
-**핵심:** % 또는 fold change + Baseline 비교 + Effect size
+**핵심:** Nature는 "얼마나 강했는가"를 정량적으로 요구!
 
 ---
 

@@ -65,7 +65,11 @@
 │   └── create_notion_workshop_week2_6.py # Full-featured script (reference)
 │
 ├── week2/                              # AI 활용 I - 초록
-│   └── lecture_notes.md                # Nature/Science abstract strategies (395 lines)
+│   ├── lecture_notes.md                # Nature/Science abstract strategies (1421 lines, 69KB)
+│   ├── lesson_slides_15min.md          # Marp slides with real Nature/Science examples
+│   ├── peer_feedback_session_plan.md   # Complete workshop design (2000+ lines)
+│   ├── selected_papers.md              # 3 Nature/Science abstract pairs (A, B, C)
+│   └── upload_lecture_notes.py         # Notion upload script using notion-client ✅
 │
 ├── week3/                              # AI 활용 II - 문헌 리뷰
 │   └── lecture_notes.md                # Systematic gap discovery (553 lines)
@@ -127,7 +131,7 @@
 - `teaching_guide_90min.md`: Minute-by-minute guide with Figma facilitation
 - `figma_workshop_guide.md`: Comprehensive Figma setup and operation guide
 
-### Week 2: AI 활용 I - Nature/Science급 초록 작성
+### Week 2: 초록 쓰기 워크샵 (AI 활용 I)
 **NO PROMPT ENGINEERING BASICS** (students already learned from 윤경생)
 
 Focus areas:
@@ -346,7 +350,7 @@ Week 2-6 workshops have been implemented in **Notion** for persistent, structure
   - Collective knowledge base that grows each week
 
 - ✅ **5 Workshop Pages** (Week 2-6)
-  - Week 2: Nature/Science급 초록 작성 (`29f41454-561d-8172-a4e9-d63c7eee0f0a`)
+  - Week 2: 초록 쓰기 워크샵 (`29f41454-561d-8172-a4e9-d63c7eee0f0a`)
   - Week 3: 체계적 Research Gap 발견 (`29f41454-561d-817c-842d-f653dac8b2cd`)
   - Week 4: Methods/Results Bulletproofing (`29f41454-561d-818e-acd5-eb56e0bb807a`)
   - Week 5: Discussion Section (`29f41454-561d-8121-ad35-fdf8e5536a6b`)
@@ -365,7 +369,7 @@ Week 2-6 workshops have been implemented in **Notion** for persistent, structure
 ├─ 🧪 AI Recipe Library Database
 │  └─ Filters by Week, Category, Success Rate
 │
-├─ 📅 Week 2: Nature/Science급 초록 작성
+├─ 📅 Week 2: 초록 쓰기 워크샵
 │  ├─ 📖 강의 자료 (전략 + 평가 기준)
 │  ├─ 💡 예시 프롬프트 레시피
 │  ├─ 🧪 학생 실험 영역 (Template Button)
@@ -404,10 +408,62 @@ Week 2-6 workshops have been implemented in **Notion** for persistent, structure
 - Encountered Notion API limitations with complex nested blocks
 - Kept as reference for understanding full vision
 
+**Markdown Upload Script** ✅ (2025-01-04):
+- `week2/upload_lecture_notes.py`
+- Uploads markdown files to Notion pages using notion-client
+- Successfully uploaded 617 blocks (1421 lines, 69KB) in 7 batches
+- Converts markdown → Notion blocks (headings, lists, code, tables, quotes)
+- Usage: `python upload_lecture_notes.py <page_id>`
+- Example: https://notion.so/2a141454561d8077b956df19394fcf24
+
 **Design Document**:
 - `week1/NOTION_WORKSHOP_DESIGN.md`
 - Complete specification of databases, properties, views, templates
 - Includes API limitations and manual setup requirements
+
+### 🔧 Notion Upload Best Practice
+
+**ALWAYS use notion-client Python library for Notion uploads**
+
+When uploading files or content to Notion:
+- ❌ **DO NOT** suggest manual copy-paste first
+- ❌ **DO NOT** suggest Notion's import feature first
+- ✅ **ALWAYS** write Python script using notion-client library
+
+**Why notion-client First:**
+1. **Automation**: Repeatable, scriptable, version-controlled
+2. **Batch Processing**: Handles 100-block API limit automatically
+3. **Format Conversion**: Programmatic markdown → Notion blocks
+4. **Error Handling**: Retry logic and detailed error messages
+5. **Speed**: < 2 minutes for 69KB file (vs manual copy-paste)
+
+**Implementation Pattern:**
+```python
+from notion_client import Client
+import os
+
+# Initialize
+notion = Client(auth=os.getenv('NOTION_TOKEN'))
+
+# Upload blocks (max 100 per request)
+notion.blocks.children.append(block_id=page_id, children=blocks)
+```
+
+**Environment Setup:**
+```bash
+export NOTION_TOKEN='your_notion_integration_token'
+pip install notion-client
+```
+
+**Working Example:**
+- See `week2/upload_lecture_notes.py` for complete implementation
+- Parses markdown, batches blocks, handles tables/code/lists
+- Successfully tested with 1421-line lecture notes (2025-01-04)
+
+**Fallback Only When:**
+- User explicitly requests manual method
+- NOTION_TOKEN not available or setup not possible
+- Simple content that's faster to copy-paste (<100 words)
 
 ### Manual Setup Required ⚠️
 
@@ -557,6 +613,41 @@ The automation scripts created the basic infrastructure. These steps need to be 
 - Include specific metrics (e.g., citation counts, impact factors)
 - Explain why the "after" version is better for top-tier journals
 
+### Uploading Materials to Notion
+**ALWAYS use notion-client Python library for Notion uploads**
+
+1. **Write Upload Script** (don't suggest manual copy-paste):
+   ```python
+   from notion_client import Client
+   import os
+
+   notion = Client(auth=os.getenv('NOTION_TOKEN'))
+   notion.blocks.children.append(block_id=page_id, children=blocks)
+   ```
+
+2. **Convert Markdown to Notion Blocks**:
+   - Headings (H1, H2, H3) → heading_1, heading_2, heading_3
+   - Code blocks (```) → code blocks
+   - Lists (-, *, 1.) → bulleted_list_item, numbered_list_item
+   - Tables → code blocks (markdown format)
+   - Quotes (>) → quote blocks
+
+3. **Handle API Limits**:
+   - Maximum 100 blocks per request
+   - Batch larger files into multiple requests
+   - See `week2/upload_lecture_notes.py` for implementation
+
+4. **Success Pattern** (2025-01-04):
+   - File: lecture_notes.md (1421 lines, 69KB)
+   - Result: 617 blocks in 7 batches
+   - Time: < 2 minutes
+   - Page: https://notion.so/2a141454561d8077b956df19394fcf24
+
+**Only fallback to manual methods when:**
+- User explicitly requests it
+- NOTION_TOKEN unavailable
+- Content is very short (<100 words)
+
 ## 🚫 What NOT to Do
 
 **DO NOT add AI concept explanations to Week 2-4:**
@@ -591,6 +682,38 @@ Students should be able to:
 - Students are psychology graduate students, not computer science students
 - Examples should come from psychology/neuroscience research when possible
 - All AI tool usage should be practical and immediately applicable to research writing
+
+### Notion Integration
+**CRITICAL: Always use notion-client Python library for Notion uploads**
+
+When user requests uploading content to Notion:
+1. **DO NOT suggest manual copy-paste** - write Python script first
+2. **DO NOT suggest Notion's import feature** - use notion-client library
+3. **Write automation script** using `from notion_client import Client`
+4. **Reference working example**: `week2/upload_lecture_notes.py`
+
+**Why this matters:**
+- Manual methods don't scale (imagine uploading 10 weeks of materials)
+- Automation is repeatable and version-controlled
+- Batch processing handles API limits automatically
+- Much faster: < 2 minutes vs 30+ minutes manual work
+
+**Proven success** (2025-01-04):
+- Uploaded lecture_notes.md (1421 lines, 69KB)
+- Converted to 617 Notion blocks in 7 batches
+- Handled headings, lists, code blocks, tables, quotes
+- Page: https://notion.so/2a141454561d8077b956df19394fcf24
+
+**Environment requirement:**
+```bash
+export NOTION_TOKEN='your_token'
+pip install notion-client
+```
+
+**Only suggest manual methods when:**
+- User explicitly requests it
+- NOTION_TOKEN not available and user can't set it up
+- Content is trivially short (<100 words)
 
 ### Week 1 Specific Guidelines
 - **Use the compressed workshop model**: `lesson_notes_compressed_90min.md` is the primary teaching material
