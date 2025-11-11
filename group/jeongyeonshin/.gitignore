@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary output files
+*.log
+intro_section*.txt
+intro_section*.json
+intro_*_plain.txt
+intro_*_result.json
+RECONSTRUCTION_GUIDE.md
+
+# Keep only final results
+!intro_revised.txt
+!intro_improved_result.json
+!intro_tables_extracted.txt
+!groq_run.log
+
+# Old backup files
+*.docx
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

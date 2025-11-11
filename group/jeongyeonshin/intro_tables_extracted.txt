@@ -1,0 +1,983 @@
+TABLE 1:
+\begin{landscape}
+\tiny
+\renewcommand{\arraystretch}{0.5} % 행 높이를 더 줄임
+% \setlength{\extrarowheight}{0pt}
+% \setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}m{1cm}>{\centering\arraybackslash}m{1.3cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{1.5cm}>{\centering\arraybackslash}m{1.2cm}m{3.5cm}m{4cm}@{}}
+
+% \begin{longtable}{@{}p{1.5cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1.5cm}p{3cm}p{4.5cm}@{}}
+\captionsetup{justification=raggedright}
+\caption{Summary of previous results: early life stress and reward processing}
+\label{tab:summary_rew}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endfirsthead
+
+\captionsetup{list=no}
+\caption[]{(Continued)}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endhead
+%
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{dennisonreward2016} &
+ Threat &
+\begin{tabular}{c}
+ELS (21) \\ HC (38)
+\end{tabular}
+&
+16.95 (1.44) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  MID task &
+  RT ↓ (at the trend level) &
+\multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{dillonreward2009}&
+  Threat &
+  \begin{tabular}[c]{@{}c@{}}ELS (13) \\ HC (31)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 24.58 (.88)\\ HC 37.08 (13.77)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   MID task &
+  RT ↑  (at the trend level) &
+  \multicolumn{1}{m{4cm}}{\setlength{\baselineskip}{0.5\baselineskip} Reward anticipation: left putamen and left pallidus ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}   \cite{dennisonreward2019} &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+  94 participants &
+  13.57 (3.47) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Reward Processing task &
+\multicolumn{1}{m{3.5cm}}{\raggedright
+\setlength{\baselineskip}{0.5\baselineskip} 
+\hspace{-0.04cm}- Abuse: reward performance not significant\\ 
+- Food insecurity: reward performance (lower rewards) ↓ \\ 
+- Neglect: reward performance not significant
+} &
+\multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{liuzzireward2024}  &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  169 trauma survivors &
+  32.2 (10.3) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\multicolumn{1}{m{1.4cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}   Resting state-functional connectivity} &
+  \multicolumn{1}{c}{-} &
+  \multicolumn{1}{m{4cm}}{\raggedright
+\setlength{\baselineskip}{0.5\baselineskip} 
+  \hspace{-0.04cm}- Threat: right nucleus accumbens connectivity with temporal fusiform gyrus/parahippocampal gyrus ↑, not significant amygdala \\ - Deprivation: nucleus accumbens, amygdala not significant} \\* \midrule
+\raggedright
+\setlength{\baselineskip}{0.5\baselineskip} \cite{hansonreward2015} &
+  Deprivation &
+  106 participants &
+  13.67 &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip} Card guessing paradigm &
+  \multicolumn{1}{c}{-} &
+  \multicolumn{1}{m{4cm}}{\setlength{\baselineskip}{0.5\baselineskip} Reward feedback: ventral striatum development ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{mehtareward2010} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (12) \\ HC (11)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 16.1 (.77)\\ HC 16.0 (.85)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  MID Task &
+  Accuracy, RT: not significant &
+  \multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ Reward anticipation: ventral striatum and caudate nucleus ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{muellerreward2012} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (17) \\ HC (29)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 11.3 (1.9)\\ HC 11.9 (2.4)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Monetary Incentive Saccade task &
+  \multicolumn{1}{m{3.5cm}}{\raggedright
+\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- RT ↑ \\ - Error: not significant (reward \& neutral condition)} &
+  \multicolumn{1}{c}{-}\\* \midrule
+  \raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+\cite{birnreward2017} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (23) \\ HC (19)\end{tabular} &
+  20.5 &
+  Longitudinal &
+  MID task &
+  \multicolumn{1}{c}{-} &
+  \multicolumn{1}{m{4cm}}{\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Reward anticipation: posterior cingulate/precuneus, middle temporal gyrus, lingual gyrus, right middle frontal gyrus, and cerebellum ↓} \\* \midrule
+    \raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{boeckerreward2014} &
+  Mixed &
+  162 participants &
+  24.4 &
+  Longitudinal &
+  MID task &
+  RT ↑ &
+  \multicolumn{1}{m{4cm}}{  \raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Reward anticipation (monetary vs. verbal): left ventral striatum, putamen, left thalamus, left insula, left anterior cingulate cortex and right anterior hippocampus ↓ in ROI analysis\\ - Reward feedback (win vs. no win): bilateral insula, right pallidum, and bilater putamen ↑ in ROI analysis} \\* \midrule
+  \raggedright\setlength{\baselineskip}{0.5\baselineskip}
+ \cite{boeckerreward2016} &
+  Mixed &
+  168 participants &
+  24.5 (.59) &
+  Longitudinal &
+  MID task &
+  RT ↑ &
+  \multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward anticipation (monetary vs. verbal): left middle frontal gyrus, left and right anterior cingulate cortex, left ventral striatum, left and right putamen, left anterior insula and left pallidum ↓ in ROI analysis \\ - Reward feedback (win vs. no win): not significant} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.3\baselineskip} \cite{holzemotion2017} &
+  Mixed &
+  171 participants &
+  25 &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}   Reward task &
+  \multicolumn{1}{c}{-} &
+  \multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Reward anticipation: left caudate, putamen, dorsal striatum ↓ in ROI analysis} \\* \midrule
+  \raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+\cite{babadreward2021} &
+  Mixed &
+  436 participants &
+  19.73 (1.83) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+  BAS &
+  \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward responsiveness: ↓ emotional neglect, physical neglect, domestic violence, age, and being male\\ - Drive:  ↓ (emotional neglect, substance use, mental illness, and cumulative ACEs) \\ - Fun seeking: not reported} &
+  \multicolumn{1}{c}{-} \\* \midrule  
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}  \cite{deldonnoreward2019}&
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}MDD (23)\\ HC (27)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}MDD 25.09 (3.32)\\ HC 29.15 (9.00)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+  BAS &
+  \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward responsiveness: not significant \\ - Drive: not significant\\ - Fun seeking: not reported} &
+  \multicolumn{1}{c}{-}\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{draganreward2019} &
+\setlength{\baselineskip}{0.5\baselineskip}   Mixed (cumulative ELS) &
+  48 participants &
+  25.1 (5.36) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  BAS &
+  \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.3\baselineskip}\hspace{-0.04cm}- Reward responsiveness: ↓ (significant only in female)\\ - Drive: not significant\\ - Fun seeking: not significant} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+\cite{marusakreward2015} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (14)\\ HC (19)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 12.61 (2.11)\\ HC 12.06 (2.66)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  BAS &
+  \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward responsiveness: not significant \\ - Drive: not significant\\ - Fun seeking: not significant} &
+  \multicolumn{1}{c}{-}  \\* \midrule
+  \raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{marusakreward2017} &
+ \setlength{\baselineskip}{0.5\baselineskip}  Threat (26\% reported neglect) &
+  \begin{tabular}[c]{@{}c@{}}ELS (43)\\ HC (43)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 12.28 (2.65)\\ HC 11.51 (2.29)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  BAS &
+  \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward responsiveness: not significant\\ - Drive: not reported\\ - Fun seeking: not reported} &
+  \multicolumn{1}{c}{-} \\* \midrule
+    \raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+\cite{miureward2017} &
+  Mixed &
+  375 participants &
+  21.33 (4.40) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  BAS &
+  \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward responsiveness: not significant\\ - Drive: ↓  interpersonal trauma (than HC/non-interpersonal trauma)\\ - Fun seeking: not significant} &
+    \multicolumn{1}{c}{-}\\* \midrule 
+
+    \raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{rosenmanreward2009} &
+  Mixed &
+  7485 participants &
+\setlength{\baselineskip}{0.5\baselineskip}   20-24, 40-44, 60-64 &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  BAS &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Not significant in any subscale (reward responsiveness, drive, fun seeking) } &
+   \multicolumn{1}{c}{-}
+    \\* \midrule    
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+\cite{johnsonreward2016} &
+  Mixed &
+  343 participants &
+  18.79 (1.93) &
+åå\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  BAS &
+   \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Reward responsiveness: not significant (only interaction effect of specific gene and ELS)\\ - Drive: not significant\\ - Fun seeking: not significant} &
+    \multicolumn{1}{c}{-}
+      \\* \bottomrule
+\end{longtable}
+\renewcommand{\baselinestretch}{1}
+\small
+\raggedright
+\parbox{\linewidth}{ 
+\textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+\textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; ROI, Regions of Interest; MID, Monetary Incentive Delay; RT, Reaction Time; BAS, Behavioral Activation System
+}
+\end{landscape}
+
+
+TABLE 2:
+\begin{landscape}
+% \begin{longtable}{c} % longtable 사용, 단일 열 테이블 설정
+%     \caption{Summary of findings: early life stress and reward processing} \\ % 캡션 번호 유지
+%     \label{tab:summary_rew} \\
+%     % 첫 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_rew_1.png} \\
+%     \caption[]{(Continued)} \\ 
+%     % 두 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_rew_2.png} \\
+% \end{longtable}
+
+% \renewcommand{\baselinestretch}{1}
+% \small
+% \raggedright
+% \parbox{\linewidth}{ 
+% \textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+% \textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; ROI, Regions of Interest; MID, Monetary Incentive Delay; RT, Reaction Time
+% }
+% \end{landscape}
+
+
+TABLE 3:
+\begin{landscape}
+\tiny
+\renewcommand{\arraystretch}{0.5} % 행 높이를 더 줄임
+% \setlength{\extrarowheight}{0pt}
+% \setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}m{1cm}>{\centering\arraybackslash}m{1.3cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{1.5cm}>{\centering\arraybackslash}m{1.2cm}m{3.5cm}m{4cm}@{}}
+
+\captionsetup{justification=raggedright}
+\caption{Summary of previous results: early life stress and emotion processing}
+\label{tab:summary_emo}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endfirsthead
+
+\captionsetup{list=no}
+\caption{(Continued)}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endhead
+%
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+\cite{dennisonreward2016} &
+  Threat &
+  \begin{tabular}[c]{@{}c@{}}ELS (21) \\ HC (38)\end{tabular} &
+  16.95 (1.44) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Emotional images viewing &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Rated images more emotionally intense independent of image type} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Positive vs. neutral stimuli: left nucleus accumbens, left putamen ↑}\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{mccroryemotion2011} &
+  Threat &
+  \begin{tabular}[c]{@{}c@{}}ELS (20) \\ HC (23)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  ELS 12.05 (1.41) HC 12.57 (1.18) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Face-Viewing  paradigm &
+  \begin{tabular}[c]{@{}l@{}}- Accuracy: angry, sad, neutral ↓\\ - RT: not significant\end{tabular} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Angry vs. neutral face: right amygdala, anterior insula ↑\\ - Sad vs. neutral face: not significant}\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{mclaughlinemotion2015} &
+  Threat &
+  \begin{tabular}[c]{@{}c@{}}ELS (21) \\ HC (21)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 16.26 (1.43) \\ HC 16.89 (1.35)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotion Regulation task &
+\setlength{\baselineskip}{0.5\baselineskip}   No differences in self-reported emotional intensity &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Negative vs. neutral (look): amygdala, putamen, thalamus, anterior insula ↑\\ - Positive vs. neutral (look): not significant} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{schweizeremotion2016} &
+  Threat &
+  \begin{tabular}[c]{@{}c@{}}ELS (23) \\ HC (30)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 20.13 (.64) \\ HC 20.07 (.74)\end{tabular} &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Regulation task &
+\setlength{\baselineskip}{0.5\baselineskip}  Positive, Negative: emotional regulation ↑ &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Negative emotion downregulation (regulation vs. look): middle frontal gyrus, middle temporal gyrus, amygdala ↓\\ - Positive (regulation vs. look): not significant} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{suzukiemotion2014} &
+  Threat &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} MDD (42) \\ HC (51) \\ Other psychiatric disorders (22)} &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}MDD 9.81 (1.23) \\ Healthy 9.8 (1.36) \\ Other psychiatric disorders 10.18 (1.47)} &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}   Facial emotion-processing task &
+  \multicolumn{1}{c}{-} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Traumatic events\newline - Sad face: amygdala, left posterior entorhinal cortex, subgenual anterior cingulate cortex and pregenual anterior cingulate cortex↑\newline - Fearful face \& happy face: not significant\newline\newline Stressful events\newline - Fearful face: right amygdala/posterior entorhinal cortex and lateral globus pallidus ↑\newline - sad face: left amygdala ↑\newline - happy face: right amygdala, left medial globus pallidus ↑} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{heinemotion2020} &
+\begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+  167 participants &
+  \begin{tabular}[c]{@{}c@{}}ELS assessment \\ 1, 3, 5, 9, 15\\ fMRI: 15\end{tabular} &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Faces task &
+  \multicolumn{1}{c}{-} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Angry vs. baseline: left amygdala activation ↓, right amygdala habituation ↓ (threat)\\ - Fearful vs. baseline: not significant (threat) \\ - Happy vs. baseline: ventral striatum ↓ (deprivation)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{lambertemotion2017} &
+\begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+  287 participants &
+  16-17 &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Stroop task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  \hspace{-0.04cm}- Threat: adaptation to emotional conflict ↓, inhibition not significant\\ - Deprivation: adaptation to emotional conflict not significant, inhibition ↓} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{callaghanemotion2019} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (45)\\ HC (57)\end{tabular} &
+  10.25 &
+  Longitudinal &
+\multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Parent/\newline stranger fMRI task} &
+  \multicolumn{1}{c}{-} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  - Lower amygdala discrimination in parent vs. stranger faces (not reduced amygdala to parent)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{geeemotion2013} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (41) \\ HC (48)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 10.8 (2.7)\\ HC 12.1 (3.3)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Faces task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   RT to correct hits to neutral faces in fear run: faster with increased age in HC, not significant in ELS} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Fearful face: amygdala, right superior temporal gyrus, inferior frontal gyrus ↑, not significant in medial prefrontal cortex activation  / negative amygdala-medial prefrontal cortex coupling ↑ (mature amygdala-medial prefrontal cortex  connectivity), \\ - Happy face: not significant in amygdala \& age-related change in connectivity} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}  \cite{greenemotion2016} &
+  Deprivation &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}Behavior: \\ELS (42) HC (45)\\ fMRI: ELS (33) HC (41)} &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Behavior: \\ ELS 10.26 (2.5) HC 9.43 (2.4)\\ fMRI: \\ ELS 10.6 (2.3) HC 10.51 (2.7)} &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}   Face Processing task &
+\setlength{\baselineskip}{0.5\baselineskip}   RT: not significant difference in untrust vs. trust &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Lower amygdala discrimination in trust vs. untrust faces (trust faces: amygdala ↑)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{goffemotion2013} &
+  Deprivation &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}5-10 years old: ELS (24) HC (15)\\ 11-15 years old: ELS (14) HC (16)} &
+  \begin{tabular}[c]{@{}c@{}}ELS 9.9 (2.6)\\ HC 9.7 (3.1)\end{tabular} &
+  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Faces task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- RT to correct hits to neutral faces in fear/happy run: not significant\\ - Accuracy (d-prime) in fear/happy run: not significant} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Fearful and happy face: nucleus accumbens ↓ in adolescent (no age difference in ELS)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{maheuemotion2010} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (11) \\ HC (19)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 13.75 (2.32)\\ HC 13.41 (2.70)\end{tabular} &
+ \setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Face-Viewing  Paradigm &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  RT: angry face ↓, fear/happy/neutral face not significant} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Fearful face vs. neutral face: amygdala, left anterior hippocampus ↑\\ Angry face vs. neutral face: left amygdala, left anterior hippocampus ↑ \\ - Happy face vs. neutral face: not significant} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{olsavskyemotion2013} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (33)\\ HC (34)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 11 (±4)\\ HC 10 (±3)\end{tabular} &
+ \setlength{\baselineskip}{0.3\baselineskip}  Cross-sectional &
+\multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Parent/\newline stranger fMRI task} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Correct hits (to happy), errors of commission (to neutral), RT (correct trials): not significant} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Lower amygdala discrimination in parent vs. stranger faces (not higher amygdala for mother)\\ - Mother: not significant\\ - Stranger: amygdala ↑ }\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{tottenhamemotion2010} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (19) \\ HC (27)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 101.5 (20) \\ HC 115.3 (26.7)\\ (in months)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional GNG task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Accuracy ↓: negative face\newline - RT ↑: to neutral face \newline (positive distractor)\newline - RT ↓: to neutral face (negative distractor)} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{tottenhanemotion2011} &
+  Deprivation &
+  \begin{tabular}[c]{@{}c@{}}ELS (22) \\ HC (22)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 9.3 (2.2)\\ HC 10.9 (2.4)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional GNG task &
+  Accuracy, RT: not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}Fearful face vs. baseline: right amygdala, left medial temporal gyrus, rostral anterior cingulate cortex ↑ }\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{bellisemotion2012} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (5) \\ HC (11)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 15.5 (2.3) \\ HC 12.8 (3.3)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Oddball task &
+  Accuracy \& RT: Not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Sad vs. neutral (sad distractor): bilateral amygdala, left subgenual cingulate, left inferior frontal gyrus, right middle temporal gyrus ↑} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{dannlowskiemotion2012} &
+  Mixed &
+  145 participants &
+  33.8 (± 10.4) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Face-Matching paradigm &
+  Not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Fearful \& angry face: right amygdala ↑ \\ - Emotional abuse and emotional neglect were the strongest predictors for amygdala responsiveness} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{dannlowskiemotion2013} &
+  Mixed &
+  134 participants &
+  34.5 (± 10.6) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Subliminal affective priming paradigm &
+  \multicolumn{1}{c}{-} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Sad vs. neutral face: amygdala ↑} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{fonzoemotion2016} &
+  Mixed &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} PTSD \& ELS 22\\ PTSD 20\\ HC \& ELS 20} &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}PTSD \& ELS 39.71 (10.8)\\ PTSD \\ 37.09 (10.37)\\ HC \& ELS \\ 32.48 (12.45)}&
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional Conflict task &
+  Accuracy \& RT: Not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Not significant in both ROI analysis and whole-brain analysis} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{harmelenemotion2013} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (60) \\ HC (75)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 38.22  (1.32) \\ HC 34.91  (1.22)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   The Faces task &
+  RT: not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Angry,  fearful, sad, happy, neutral face: amygdala ↑ } \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{holzemotion2017} &
+  Mixed &
+  171 participants &
+  25 &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}   Face Matching task &
+  \multicolumn{1}{c}{-} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Fearful/angry faces: amygdala ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{mccroryemotion2013} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (18) \\ HC (23)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 12.17 (1.43) \\ HC 12.55 (1.22)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Masked dot-probe paradigm  (angry, happy and neutral) &
+  Accuracy, RT: not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Angry vs. neutral face: right amygdala, cerebellum ↑\\ - Happy vs. neutral face: right amygdala, thalamus, pallidum ↑, temporal pole/middle temporal gyrus, temporal pole/superior temporal gyrus ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{metzemotion2018} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (15) \\ HC (16)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 42.13 \\ (± 11.04)\\ HC 34.38 \\ (± 11.33)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Emotional (word) N-Back task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Accuracy ↓ (across all targets)\\- Negative vs. positive accuracy ↑ in ELS group \\- RT: not significant} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Not significant in dorsolateral prefrontal cortex\\ - neutral than negative: left posterior cingulate cortex, precuneus ↓ only in ELS group\\ - negative than positive, negative than neutral: rostral anterior cingulate cortex ↓ only in ELS group} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{tayloremotion2006} &
+  Mixed &
+\setlength{\baselineskip}{0.5\baselineskip}   30 participants (ELS low/ high by median) &
+  18 - 36 &
+\multicolumn{1}{m{1.5cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}Cross-sectional\\ (2-6 weeks after)}&
+\setlength{\baselineskip}{0.5\baselineskip}   Observation and labeling task &
+  Accuracy, RT: not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}Fearful and angry face (observation): amygdala ↓} \\* \bottomrule
+\end{longtable}
+\renewcommand{\baselinestretch}{1}
+\small
+\raggedright
+\parbox{\linewidth}{ 
+\textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+\textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; emotional GNG task, emotional go-nogo task; RT, Reaction Time
+}
+\end{landscape}
+
+
+TABLE 4:
+\begin{landscape}
+% \begin{longtable}{c} % longtable 사용, 단일 열 테이블 설정
+%     \caption{Summary of findings: early life stress and emotion processing} \\ % 캡션 번호 유지
+%     \label{tab:summary_emo} \\
+%     % 첫 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_emo_1.png} \\
+%     \caption[]{(Continued)} \\ 
+%     % 두 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_emo_2.png} \\
+%     % 세 번째 이미지
+%     \caption[]{(Continued)} \\ 
+%     \includegraphics[width=\linewidth]{summary_emo_3.png} \\
+
+% \end{longtable}
+% \renewcommand{\baselinestretch}{1}
+% \small
+% \raggedright
+% \parbox{\linewidth}{ 
+% \textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+% \textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; emotional GNG task, emotional go-nogo task; RT, Reaction Time
+% }
+% \end{landscape}
+
+
+TABLE 5:
+\begin{landscape}
+\tiny
+\renewcommand{\arraystretch}{0.5} % 행 높이를 더 줄임
+% \setlength{\extrarowheight}{0pt}
+% \setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}m{1cm}>{\centering\arraybackslash}m{1.3cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{1.5cm}>{\centering\arraybackslash}m{1.2cm}m{3.5cm}m{4cm}@{}}
+% \begin{longtable}{@{}p{1.5cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1.5cm}p{3cm}p{4.5cm}@{}}
+\captionsetup{justification=raggedright}
+\caption{Summary of previous results: early life stress and working memory}
+\label{tab:summary_wm}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endfirsthead
+
+\captionsetup{list=no}
+\caption{(Continued)}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endhead
+
+
+%
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{johnson2021} &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ Deprivation\end{tabular} &
+  Review &
+  \multicolumn{1}{c}{-} &
+  \multicolumn{1}{c}{-} &
+  \multicolumn{1}{c}{-} &
+ \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Working memory ↓ (deprivation \textless threat)} &
+    \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{majerwm2010} &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+  47 participants &
+  51.51 (1.22) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip} CANTAB Spatial WM task &
+ \multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Threat: double errors ↑ in emotional abuse, physical abuse, not significant sexual abuse\\ - Deprivation: double errors  ↑ physical neglect, not significant  emotional neglect} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{ucokwm2015} &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ Deprivation\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Ultra-high risk for psychosis (53) &
+  21.1 (4.8) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  N-Back task \\ (alphabet)} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Accuracy: not significant in all category} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{wolfwm2019} &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+  18200 participants &
+  5.6 &
+\setlength{\baselineskip}{0.5\baselineskip}    Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Numbers reversed task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Threat, deprivation: not significant\\- Cumulative deprivation: ↓} &
+ \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{violawm2013} &
+  Deprivation &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Female substance abuser: ELS (37)\\ nonELS (48)} &
+ \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS 31.51 (7.83)\\ nonELS \\28.89 (8.72)} &
+\setlength{\baselineskip}{0.5\baselineskip}    Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Auditory N-Back task (number) &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Accuracy: not significant in 1back, \\ ↓ in 2back, 3back} &
+ \multicolumn{1}{c}{-}  \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{buckerwm2013} &
+  Mixed &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}Bipolar-ELS (26)\\ Bipolar-nonELS (38)\\ HC-ELS (9)\\ HC-nonELS (19)} &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}Bipolar-ELS 22.57 (± 1.91)\\ Bipolar-nonELS  23.10 (± 5.05)\\ HC \\ 22.78 (± 4.90)} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+  \multicolumn{1}{m{1.5cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Letter-number sequencing, CANTAB Spatial WM task} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Letter-number sequencing: not significant\\ - Spatial WM ↓ only in bipolar group} &
+  \multicolumn{1}{c}{-}\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{danesewm2017} &
+  Mixed &
+  2044 participants &
+  18, 38 &
+  Longitudinal &
+\multicolumn{1}{m{1.5cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}   CANTAB Spatial WM task, Digit span forward, Digit span backward} &
+  Working memory ↓ &
+ \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{fugewm2014} &
+  Mixed &
+  \multicolumn{1}{m{2.3cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} 541 participants\\ No ELS (96)\\ Low ELS (109)\\ Moderate ELS (128)\\ Severe ELS (118)} &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} No ELS 36 (± 17)\\ Low ELS \\41.6 (±  19.4)\\ Moderate ELS 41.3 (± 19.1)\\ Severe ELS\\43.5 (± 17.2)} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   N-Back task (Word) &
+  Accuracy↓ in 2 back &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{hallowellimpul2019} &
+  Mixed &
+  ELS (30) &
+  20.63 (2.2) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  N-Back task \\ (alphabet)}  &
+  Accuracy: ↓ in 2 back &
+  \multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} 2back vs. 0back: posterior parietal lobule, left caudal middle frontal gyrus ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{metzemotion2018} &
+  Mixed &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS (15) \\ HC (16)} &
+  \begin{tabular}[c]{@{}c@{}}ELS 42.13 \\ (± 11.04)\\ HC 34.38 \\ (± 11.33)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Emotional (word) N-Back task &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Accuracy ↓ (across all targets)\newline - RT: not significant} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Not significant in dorsolateral prefrontal cortex\\ - Neutral than negative: left posterior cingulate cortex, precuneus ↓ only in ELS group\\ - Negative than positive, negative than neutral: rostral anterior cingulate cortex ↓ only in ELS group} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{philipwm2013} &
+  Mixed &
+    \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS (10) \\ HC (9)}&
+  \begin{tabular}[c]{@{}c@{}}ELS 37.4 (12)\\ HC 39.7 (15)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  N-Back task \\ (alphabet)}  &
+  Accuracy. RT: not significant &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} 2back: right posterior cingulate cortex, medial prefrontal cortex, left middle frontal gyrus, right middle temporal region ↓ (greater default mode network deactivation in ELS)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}  \cite{philipwm2016} &
+  Mixed &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS (13) \\ HC (13)}
+  &
+  \begin{tabular}[c]{@{}c@{}}ELS 38 (9)\\ HC 30 (9)\end{tabular} 
+  &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  N-Back task \\ (alphabet)} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Accuracy: ↓ in 2 back, not significant in 0 back \\ - RT: not significant in 0 back, 2 back} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- 2back: right inferior frontal gyrus, right inferior parietal lobule, left superior temporal gyrus/inferior parietal lobule, left posterior cingulate cortex/precuneus ↑ (ELS vs. nonELS); right inferior frontal gyrus, left middle temporal gyrus/inferior parietal lobule ↑ as ELS severity ↑ (not significant between subtype severity)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} 
+ \cite{quidewm2017} &
+  Mixed &
+    \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Clinical-ELS (56) \\ Clinical-nonELS (36) \\ non-clinical ELS (17) \\ HC (30)}&
+    \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Clinical-ELS 37.4 (12.1) \\ Clinical-nonELS 38.3 (12) \\ ELS-HC 44 (12.5) \\ HC 35.5 (8.4)} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  N-Back task (number) &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Accuracy: ↓ in 2back as ELS severity ↑ regardless of clinical status\\ - RT: not significant} &
+\multicolumn{1}{m{4cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Not significant in ROI analysis\\ - 2back vs 0back: left Inferior parietal lobule ↑ (ELS vs. nonELS), cuneus, calcarine sulcus, lingual gyrus cuneus ↑ (clinical ELS vs. clinical-nonELS), calcarine sulcus, lingual gyrus ↓ (non-clinical ELS vs. HC)} \\* \bottomrule
+\end{longtable}
+\renewcommand{\baselinestretch}{1}
+\small
+\raggedright
+\parbox{\linewidth}{ 
+\textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+\textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; ROI, Regions of Interest; RT, Reaction Time
+}
+\end{landscape}
+
+
+TABLE 6:
+\begin{landscape}
+% \begin{longtable}{c} % longtable 사용, 단일 열 테이블 설정
+%     \caption{Summary of findings: early life stress and working memory} \\ % 캡션 번호 유지
+%     \label{tab:summary_wm} \\
+%     % 첫 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_wm_1.png} \\
+%     \caption[]{(Continued)} \\ 
+%     % 두 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_wm_2.png} \\
+
+% \end{longtable}
+% \renewcommand{\baselinestretch}{1}
+% \small
+% \raggedright
+% \parbox{\linewidth}{ 
+% \textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+% \textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; ROI, Regions of Interest; RT, Reaction Time
+% }
+% \end{landscape}
+
+
+TABLE 7:
+\begin{landscape}
+\tiny
+\renewcommand{\arraystretch}{0.5} % 행 높이를 더 줄임
+% \setlength{\extrarowheight}{0pt}
+% \setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}m{1cm}>{\centering\arraybackslash}m{1.3cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{2cm}>{\centering\arraybackslash}m{1.5cm}>{\centering\arraybackslash}m{1.2cm}
+>{\centering\arraybackslash}m{1.5cm}m{3cm}m{3.5cm}@{}}
+% \begin{longtable}{@{}p{1.5cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{1cm}>{\centering\arraybackslash}p{1.5cm}p{3cm}p{4.5cm}@{}}
+\captionsetup{justification=raggedright}
+\caption{Summary of previous results: early life stress and impulsivity}
+\label{tab:summary_imp}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\begin{tabular}[c]{@{}c@{}}Impulsivity \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endfirsthead
+
+
+\captionsetup{list=no}
+\caption{(Continued)}\\
+\toprule
+\multicolumn{1}{c}{Study} &
+\begin{tabular}[c]{@{}c@{}} ELS \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Participants (N)} &
+\multicolumn{1}{c}{Age: mean (SD)} &
+\multicolumn{1}{c}{Design} &
+\begin{tabular}[c]{@{}c@{}}Impulsivity \\ dimension\end{tabular} &
+\multicolumn{1}{c}{Measurement} &
+\multicolumn{1}{c}{Behavioral results} &
+\multicolumn{1}{c}{Neural results}\\* \midrule
+\endhead
+
+%
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{auebachimpulsitivy2014} &
+  Threat &
+  194 participants &
+  15.53 (1.34) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Continuous performance Task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}Commission error: not significant} &
+  \multicolumn{1}{c}{-}\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{carrionimpul2008} &
+  Threat &
+  \begin{tabular}[c]{@{}c@{}}ELS (16) \\ HC (14)\end{tabular} &
+  13.7 &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Go/Nogo task (alphabet) &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}Accuracy, RT: not significant} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Nogo vs. go (stop vs. go): left cuneus, left inferior occipital, left inferior temporal gyri, medial frontal gyrus, anterior cingulate cortex ↑} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{mezzacappaimpul2001} &
+  Threat &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}ELS (25) (therapeutic school/abused) \\ therapeutic/\\ non abused (52) \\ HC (48)} &
+  10.5 (2.1) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Stop signal task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Stop accuracy: ↓} &
+ \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{lambertemotion2017} &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+  287 participants &
+  16-17 &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}   The arrows task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Threat: not significant inhibition or switching\\ - Deprivation: ↓ inhibition and switching} &
+ \multicolumn{1}{c}{-}  \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{wolfwm2019}  &
+  \begin{tabular}[c]{@{}c@{}}Threat/\\ deprivation\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  18200 participants &
+  5.6 &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  inhibitory control &
+\setlength{\baselineskip}{0.5\baselineskip}  teacher reported survey &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Threat, deprivation: inhibitory control ↓} &
+  \multicolumn{1}{c}{-}\\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{merzimpul2013} &
+  Deprivation &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS (41 adopted ≤9 months \\ 34 adopted \\ ≥ 14 months) \\ HC (133)} &
+  \begin{tabular}[c]{@{}c@{}}ELS 12.97 (3.03) \\ HC 12.26 (2.75)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Stop signal task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}SSRT: ↑ (adopted after 14 months \textgreater before 9 months) }&
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{bruceimpul2013} &
+  Mixed &
+ \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS (11) \\ HC (11)} &
+  10.91 (0.90) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Go/Nogo task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  No-go accuracy, go accuracy: not significant} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}\hspace{-0.04cm}- Correct no go vs. correct go: right anterior cingulate cortex, right middle frontal, right lingual, cuneus ↓\\ - Incorrect no go vs. correct no go: left inferior parietal lobule, right precunues, right cuneus, right lingual gyrus ↓} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{eltonimpul2014}&
+  Mixed &
+  40 participants &
+  29.6 (7.9) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Stop signal task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}   Stop accuracy, SSRT: not significant} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}Successful stop vs go (not following a stop trials): inferior frontal gyrus, dorsal anterior cingulate cortex, middle cingulate, supramarginal not significant} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{hamiltonimpul2013} &
+  Mixed &
+  ELS (192) &
+  30.42 (9.3) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}   Go/Nogo task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Nogo accuracy: not significant} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{hartimpulsivity2018} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (23) \\ HC (27)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 17.2 (2.44)\\ HC 17.5 (1.63)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}   Stop signal task &
+\multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Stop accuracy: not significant\\- Stop signal reaction time (SSRT): not significant\\- Mean RT, post-error RT↑} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Unsuccessful stop vs. go: ↓ connectivity right putamen between caudate, right anterior cingulate cortex, left putamen, ↓ connectivity right supplementary motor area between right dorsomedial prefrontal cortex, right  dorsolateral prefrontal cortex, right  inferior frontal gyrus} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{liimpulsivity2013} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}PVP (53)\\ PVnP (64)\\ nPV (68) \\ nV (74)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}PVP 19.66 (0.85)\\ PVnP 19.55 (0.78)\\ nPV 19.68 (0.80)\\ nV 19.74 (0.84)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Stop signal task &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Stop accuracy (last half): ↓ (PVP \textless nV)\\ - SSRT: not significant} &
+  \multicolumn{1}{c}{-}  \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{limimpul2015} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (23) \\ HC (27) \\ Psychiatric-\\ nonELS (20)\end{tabular} &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} ELS 17.2 (2.44)\\ HC 17.5 (1.63)\\ Psychiatric-nonELS \\ 17.0 (2.42)} &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Stop signal task &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Stop accuracy: not significant\\- SSRT: ↑} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Correct stop vs. correct go: not significant\\- Incorrect stop vs. correct go:presupplementary motor area, supplementary motor area, dorsal anterior cingulate cortex, superior frontal gyri, left paracentral lobule  ↑} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{muellerimpul2010} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (12) \\ HC (21)\end{tabular} &
+  13.16 (2.58) &
+\setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Change task (variant of stop signal task) &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Change signal reaction time (CSRT) ↑} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- Correct change vs. correct go: left inferior prefrontal gyrus, right dorsal anterior cingulate cortex, left anterior cingulate cortex, left putamen, left caudate, precentral, right post central, left claustrum/insula, primary motor and sensorimotor cortex  ↑\\ - Correct change vs. incorrect change: left inferior prefrontal gyrus, left precentral/inferior frontal gyrus, left claustrum/insula ↑} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{stinson2024} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}Y0 (7895)\\ Y2 (4973)\end{tabular} &
+\multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} Y0 \\approximately 10\\ Y2 \\approximately 12} &
+  Longitudinal &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive action &
+\setlength{\baselineskip}{0.5\baselineskip}  Stop signal task &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}-Stop accuracy: ↓ both 0, 2year (ACE)\\ SSRT: ↑ only in 2 year (ACE)} &
+\multicolumn{1}{m{3.5cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Correct stop vs. correct go: pre-supplementary motor area, right inferior frontal gyrus ↓, not significant in left inferior frontal gyrus, anterior cingulate cortex, dorsolateral prefrontal cortex, anterior insula (ACE correlation) / anterior insula, left pre-supplementary motor area ↑ (family conflict) \\ (both 0, 2 year)} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{achesonimpul2019} &
+  Mixed &
+  ELS (1192) &
+  23.6 (3.5) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Impulsive choice &
+\setlength{\baselineskip}{0.5\baselineskip}   Delay discounting task &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Discounting rate  ↑} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{hamiltonimpul2013} &
+  Mixed &
+  ELS (192) &
+  30.42 (9.3) &
+\setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Impulsive choice &
+\setlength{\baselineskip}{0.5\baselineskip}   Experiential discounting task &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Discounting rate: no significant association with severity} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{oshriimpul2018} &
+  Mixed &
+  225 participants &
+  21.56 (2.24) &
+  \begin{tabular}[c]{@{}c@{}}Longitudinal \\ (9 - 12 months)\end{tabular} &
+\setlength{\baselineskip}{0.5\baselineskip}  Impulsive choice &
+  \begin{tabular}[c]{@{}c@{}} Monetary \\ Choice \\ Questionnaire\end{tabular}&
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip}  Discounting rate  ↑}  &
+ \multicolumn{1}{c}{-}  \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{simmenimpul2015} &
+  Mixed &
+  \begin{tabular}[c]{@{}c@{}}ELS (103) \\ HC (50)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}ELS 76.75 (5.23)\\ HC 75.16 (5.66)\end{tabular} &
+ \setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+\setlength{\baselineskip}{0.5\baselineskip}   Impulsive choice &
+\setlength{\baselineskip}{0.5\baselineskip}   Delay discounting task &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} Discounting rate: no significant association with severity} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{weissimpul2023} &
+  Threat &
+\setlength{\baselineskip}{0.5\baselineskip}  11872 participants &
+  \multicolumn{1}{m{2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}9.83 (0.61) \\at baseline} &
+  Longitudinal &
+  \multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  Trait\\ impulsivity} &
+\setlength{\baselineskip}{0.5\baselineskip}   UPPS-P positive urgency, negative urgency &
+  \multicolumn{1}{m{3.01cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- UPPS positive urgency: ↑\\ - UPPS negative urgency: ↑} &
+ \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{gagnonimpul2013} &
+  Mixed &
+  122 participants &
+  23.05 (3.72) &
+ \setlength{\baselineskip}{0.5\baselineskip} Cross-sectional &
+  \multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  Trait\\ impulsivity} &
+  UPPS &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- UPPS negative urgency ↑  \\ - UPPS lack of planning ↑ \\ - UPPS lack of perseverance: not significant\\ - UPPS sensation seeking: not significant} &
+  \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{hallowellimpul2019} &
+  Mixed &
+  ELS (30) &
+  20.63 (2.2) &
+ \setlength{\baselineskip}{0.5\baselineskip}   Cross-sectional &
+  \multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  Trait\\ impulsivity}&
+  UPPS-P &
+  UPPS-P ↑ &
+ \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{liuimpul2019} &
+  Mixed &
+  55 publications &
+   \multicolumn{1}{c}{-} &
+   \multicolumn{1}{c}{-} &
+  \multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  Trait\\ impulsivity} &
+  \multicolumn{1}{m{1.5cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip} General trait impulsivity (BIS, ICS, SNAP-IV, EIS, CCQ) \\ (21 studies), \\ UPPS \\ (9 studies)} &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- General trait impulsivity ↑\\ - UPPS; lack of perseverance/ negative urgency ↑, lack of planning, sensation seeking: not significant\\ - Negative urgency ↑ - sexual abuse, physical abuse, physical neglect\\ + motor impulsivity ↑: mixed, physical abuse, emotional abuse} &
+ \multicolumn{1}{c}{-} \\* \midrule
+ \raggedright\setlength{\baselineskip}{0.5\baselineskip} \cite{shinimpul2018} &
+  Mixed &
+  335 participants &
+  21.7 (2.1) &
+ \setlength{\baselineskip}{0.5\baselineskip}  Cross-sectional &
+  \multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  Trait\\ impulsivity} &
+  UPPS &
+  \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm}- UPPS negative urgency ↑ (emotional ACEs, high/multiple ACEs \textgreater low ACEs), not significant (house/community ACEs)  \\ - UPPS sensation seeking ↑ (house/community ACEs \textgreater emotional ACEs)\\- UPPS lack of planning, lack of perseverance: not significant} &
+ \multicolumn{1}{c}{-} \\* \midrule
+\raggedright\setlength{\baselineskip}{0.5\baselineskip}\cite{yangimpul2024} &
+  Mixed &
+  \setlength{\baselineskip}{0.5\baselineskip} 2925 participants &
+  9.52 (0.50) &
+  Longitudinal &
+  \multicolumn{1}{m{1.2cm}}{\centering\setlength{\baselineskip}{0.5\baselineskip}  Trait\\ impulsivity}&
+  UPPS-P &
+   \multicolumn{1}{m{3cm}}{\raggedright\setlength{\baselineskip}{0.5\baselineskip} \hspace{-0.04cm} UPPS: ↑ (neighborhood violence, adverse life events, SES disadvantage), not significant (area poverty) (correlation)} &
+  - \\* \bottomrule
+
+
+\end{longtable}
+\renewcommand{\baselinestretch}{1}
+\small
+\raggedright
+\parbox{\linewidth}{ 
+\textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+\textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; PVP, Poly-victimization with PTSD; PVnP, Poly-victimization without PTSD; nPV, Non-PV nV, Non-victimization; ROI, Regions of Interest; RT, Reaction Time; UPPS, Urgency-Premeditation-Perseverance-Sensation Seeking; UPPS-P, Urgency-Premeditation-Perseverance-Sensation Seeking-Positive Urgency; ACE, Adverse Childhood Experience; SES, Socio-economic Status; BIS, Barratt Impulsiveness Scale; ICS, Impulsivity Control Scale; SNAP-IV, Swanson, Nolan, and Pelham Rating Scale; EIS, Eysenck Impulsivity Scale; CCQ, California Child Q-Set
+}
+\end{landscape}
+
+
+TABLE 8:
+\begin{landscape}
+% \begin{longtable}{c} % longtable 사용, 단일 열 테이블 설정
+%     \caption{Summary of findings: early life stress and impulsivity} \\ % 캡션 번호 유지
+%     \label{tab:summary_imp} \\
+%     % 첫 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_imp_1.png} \\
+%     \caption[]{(Continued)} \\ 
+%     % 두 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_imp_2.png} \\
+%     \caption[]{(Continued)} \\ 
+%     % 세 번째 이미지
+%     \includegraphics[width=\linewidth]{summary_imp_3.png} \\
+
+% \end{longtable}
+% \renewcommand{\baselinestretch}{1}
+% \small
+% \raggedright
+% \parbox{\linewidth}{ 
+% \textit{Note.} The criteria for distinguishing between cross-sectional and longitudinal designs were based on the timing of the administration of ELS and neurocognitive function measures. \\
+% \textit{Abbreviations.} ELS, Early Life Stress; HC, Healthy Control; PVP, Poly-victimization with PTSD; PVnP, Poly-victimization without PTSD; nPV, Non-PV nV, Non-victimization; ROI, Regions of Interest; RT, Reaction Time; UPPS, Urgency-Premeditation-Perseverance-Sensation Seeking; UPPS-P, Urgency-Premeditation-Perseverance-Sensation Seeking-Positive Urgency
+% }
+% \end{landscape}
