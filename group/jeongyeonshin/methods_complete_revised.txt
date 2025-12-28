@@ -1,0 +1,142 @@
+METHODS
+
+Participants
+
+Data for this study were obtained from the Adolescent Brain Cognitive Development (ABCD) study (release 5.0) (Garavan et al., 2018), a large-scale longitudinal study that initially recruited 11,878 children aged 9-10 years (mean age at baseline [Year 0, Y0] = 9.96 years, SD = 0.6 years). Data collection began in September 2016, with annual follow-up assessments planned over ten years. Details regarding the ABCD study design and recruitment procedures are described elsewhere (Garavan et al., 2018).
+
+To investigate developmental changes, we utilized data from baseline and the two-year follow-up (Year 2, Y2; mean age = 11.94 years, SD = 0.6 years). For cross-sectional analyses, we used baseline data (Y0). To ensure data quality and minimize potential biases, we applied the following exclusion criteria: (1) missing data on any variables of interest, (2) fMRI data failing recommended image inclusion criteria (Hagler et al., 2019), and (3) inclusion of only one randomly selected participant per family to minimize biases arising from shared genetic or environmental factors. After applying these criteria, the final sample sizes were 3,568 participants for cross-sectional analyses (Y0) and 2,222 participants for longitudinal analyses (Y2).
+
+
+MEASUREMENT
+
+Early Life Stress
+
+ELS measures were derived from baseline data and divided into two dimensions—threat and deprivation—based on the theoretical model of ELS (McLaughlin et al., 2014).
+
+Threat
+
+We assessed threat using measures of sexual abuse, physical abuse, domestic violence, non-interpersonal trauma, and community violence/safety. We assessed these measures using items from the ABCD Family Environment Scale-Family Conflict Subscale (modified from PhenX), the ABCD Neighborhood Safety/Crime Survey-Safety from Crime Subscale (modified from PhenX), and the Kiddie Schedule for Affective Disorders and Schizophrenia (KSADS) - Post-Traumatic Stress Disorder section, with reports from parents and youth where applicable. We binary coded all items (1 = event experienced, 0 = event not experienced).
+
+We assessed sexual abuse with three items, including: "A grown-up in the home touched your child in their privates, had your child touch their privates, or did other sexual things to your child." We assessed physical abuse with five items, such as: "Shot, stabbed, or beaten brutally by a non-family member" and "A family member threatened to kill your child." We measured domestic violence, distinct from physical abuse that directly targets the child, using both youth and parent-reported items, such as: "Family members sometimes hit each other."
+
+Non-interpersonal trauma was assessed with six items, including experiencing a car accident, witnessing a natural disaster, or war. We evaluated community violence/safety with four items, such as: "Witnessed someone shot or stabbed in the community" and "I feel safe walking in my neighborhood, day or night."
+
+Deprivation
+
+Deprivation measures included emotional neglect, physical neglect, parental separation, previous institutionalization, food insecurity, utility insecurity, household poverty, and neighborhood poverty.
+
+Emotional neglect was assessed using ten items from the ABCD Children's Report of Parental Behavioral Inventory (example item: "First caregiver makes me feel better after talking over my worries with him/her"). Physical neglect was measured using five items related to parental monitoring from ABCD Parental Monitoring Survey (example item: "In an average week, how many times do you and your parents/guardians eat dinner together?").
+
+Parental separation was defined as parents reporting being "separated" or "divorced," or if the current partner was not the child's biological or adoptive parent. Previous institutionalization was identified if the parent answered "yes" to the question: "Is your partner the child's adoptive parent?"
+
+Food insecurity was assessed with the item: "In the past 12 months, has there been a time when you and your immediate family experienced any of the following: Needed food but couldn't afford to buy it or couldn't afford to go out to get it?" Utility insecurity was measured using six items about the affordability of housing or essential services, such as telephone or medical care, in the past year.
+
+Neighborhood poverty was assessed using the Area Deprivation Index (ADI; Kind & Kinney, 2014), with higher national percentiles indicating greater deprivation. A national percentile of 85 or higher was classified as neighborhood poverty (Kind & Kinney, 2014). We derived household poverty using the income-to-needs ratio (INR), as described in a previous study (Kim et al., 2022). Since income was reported in ranges, the median value of each range was used for calculations. We calculated the INR by dividing household income by the poverty line based on family size provided by the 2017 Poverty Guidelines (HHS Poverty Guidelines, 2017). An INR below 1 was defined as household poverty (Kim et al., 2022).
+
+ELS Scoring
+
+To calculate scores for each dimension, composite scores were created by counting the subdomains associated with each dimension as dichotomous variables. A subdomain was considered present if at least one item within it was marked. The threat score ranged from 0 to 5, and the deprivation score ranged from 0 to 8. Participants scoring within the top 10% were assigned to the high-threat or high-deprivation groups. Specifically, the high-threat group included those with threat scores of 2 or higher (>=87th percentile), while the high-deprivation group included those with deprivation scores of 3 or higher (>=90th percentile).
+
+Alternative thresholds were tested but were found to be less suitable, leading to the selection of the 10% threshold for group classification. For threat, the top 20% cut-off included nearly half of the sample (up to the 50th percentile), making it unsuitable for meaningful group distinctions. Similarly, the top 5% cut-off produced the same group classifications as the 10% threshold, limiting its utility.
+
+For a detailed description of the measures, refer to Appendix A.
+
+
+Neurocognitive Functions
+
+Neurocognitive functions are divided into four domains: reward processing, emotion processing, working memory, and impulsivity. These constructs were measured through a combination of self-report surveys, behavioral tasks, and behavioral/neural measures from fMRI tasks. Behavioral tasks, two for working memory and one for impulsivity, were available only at baseline and therefore limited to cross-sectional analyses.
+
+For neural measures, spatial regions of interest (ROIs) for each task were primarily defined based on prior findings, which have reported inconsistent results. Additionally, core regions associated with the corresponding neurocognitive functions were included. The fMRI beta weights for each ROI, derived from first-level GLM analyses, were used as provided by the ABCD dataset.
+
+Reward Processing
+
+Participants completed a modified Monetary Incentive Delay (MID) task (Knutson et al., 2001; Casey et al., 2018) to assess reward processing. In each trial (n=100), participants were presented with one of five incentive cues (20 trials per cue type): win $5, win $0.20, lose $0.20, lose $5, or $0 (no win or loss). Following a variable delay, participants responded to a target stimulus. The adaptive algorithm adjusted the target stimulus duration based on the participant's previous response accuracy to maintain accuracy at approximately 60% across all trial types (Casey et al., 2018).
+
+We measured accuracy on reward trials and mean reaction time for successful reward trials. For fMRI analysis, two contrasts were specified: (1) "reward versus neutral" activity at cue onset to index reward anticipation, and (2) "positive feedback versus negative feedback" activity during reward trials to index reward feedback. Regions of interest (ROIs) included the rostral and caudal anterior cingulate cortex (rACC, cACC), insula, striatum (caudate, putamen, nucleus accumbens [NAc]), and pallidum.
+
+To complement the task-based assessment of reward processing, we also assessed individual differences in reward sensitivity and motivation using the BIS/BAS scale. Participants completed a modified version of the ABCD BIS/BAS scale (Carver & White, 1994; PhenX toolkit) to quantify individual differences in reward sensitivity and goal-directed motivation. Participants rated the extent to which they agreed with each statement on a 4-point Likert scale (0 = very untrue, 3 = very true). Three BAS subscales were examined: Reward Responsiveness (positive reactions to rewards), Drive (motivation to pursue goals), and Fun Seeking (desire for new rewards).
+
+Emotion Processing
+
+Emotion processing was assessed using behavioral measures and fMRI beta weights from the Emotional N-Back (EN-back) task (Cohen et al., 2015; Casey et al., 2018). During the task, participants viewed blocks of happy, fearful, and neutral faces, as well as places, and were instructed to respond via button press when the current stimulus matched a pre-designated target (0-back) or the stimulus presented two trials prior (2-back). The task included two runs, each consisting of four 2-back blocks and four 0-back blocks. Each stimulus type (happy, fearful, neutral face, place) was presented in 40 trials per run, totaling 160 trials per run (Casey et al., 2018).
+
+Behavioral measures included accuracy for positive faces (positive accuracy), accuracy for negative faces (negative accuracy), average reaction time for correct responses to positive faces (positive RT), and average reaction time for correct responses to negative faces (negative RT). For fMRI analysis, beta weights were derived from contrasts of "positive face versus neutral face" and "negative face versus neutral face." Regions of interest (ROIs) included the rostral and caudal anterior cingulate cortex (rACC, cACC), insula, amygdala, striatum (caudate nucleus, putamen, and nucleus accumbens [NAc]), pallidum, and thalamic regions (thalamus, ventral diencephalon, and hippocampus).
+
+Working Memory
+
+We assessed working memory using the EN-Back task (Cohen et al., 2015). For neural measures, the "2-back versus 0-back" contrast was utilized, as the 2-back condition required greater working memory capacity compared to the 0-back condition. The ROIs were defined based on the involvement of the Default Mode Network (DMN) and the Central Executive Network (CEN). DMN regions included the posterior cingulate cortex (PCC), precuneus, medial prefrontal cortex (mPFC; specifically, rostral anterior cingulate cortex [rACC] and medial orbitofrontal cortex [mOFC]), and inferior parietal lobule (IPL). CEN regions included dorsolateral prefrontal cortex (dlPFC; rostral and caudal middle frontal gyrus [rMFG, cMFG]) and the posterior parietal cortex (PPC; superior and inferior parietal lobule [SPL, IPL]). Behavioral measures included accuracy and average reaction time from the 2-back trials.
+
+We also included the List Sorting Working Memory Test and the Dimensional Change Card Sort Test from the NIH Toolbox (Tulsky et al., 2013) as additional behavioral measures of working memory. In the List Sorting Test, participants were asked to recall and sequence visually presented items in ascending order. In the Dimensional Change Card Sort Test, participants sorted cards based on either color or shape, with the sorting rule switching periodically. We used age-corrected scores for both tasks. Note that these tasks were only administered at baseline and therefore were limited to cross-sectional analyses.
+
+Impulsivity
+
+Impulsive action, trait impulsivity, and impulsive choice were assessed using the Stop Signal Task (SST), the modified UPPS-P Impulsive Behavior Scale for Children, and the Cash Choice Task, respectively.
+
+Stop Signal Task (SST): Impulsive action was assessed using a modified version of the Stop Signal Task (SST; Logan et al., 1984; adapted by Casey et al., 2018). Participants responded to a left or right arrow by pressing a corresponding button as quickly and accurately as possible during "Go" trials. On 16.67% of trials, an unpredictable "Stop signal" (up-right arrow) appeared, requiring participants to inhibit their response. Each participant completed two runs of 180 trials each (360 trials total). To maintain approximately 50% accuracy on Stop trials, the stop signal delay (SSD) was dynamically adjusted using a staircase procedure (Casey et al., 2018). Behavioral measures included Stop Signal Reaction Time (SSRT) and accuracy in stop trials (stop accuracy). For fMRI analysis, the "correct stop versus correct go" contrast examined successful inhibition. Regions of interest (ROIs) included the inferior frontal gyrus (IFG; pars triangularis and pars orbitalis), rostral and caudal anterior cingulate cortex (rACC, cACC), and the striatum (caudate nucleus, putamen, and nucleus accumbens [NAc]).
+
+UPPS-P Impulsive Behavior Scale: Trait impulsivity was measured using the modified Urgency, Premeditation, Perseverance, Sensation Seeking, and Positive Urgency Impulsive Behavior Scale for Children (UPPS-P; Barch et al., 2018). This 20-item questionnaire, designed for youth, assesses five subscales: lack of planning, lack of perseverance, sensation seeking, positive urgency, and negative urgency. Participants rated each item on a 4-point Likert scale, ranging from 1 (not at all like me) to 4 (very much like me).
+
+Cash Choice Task: Impulsive choice was assessed using the Cash Choice Task (Luciana et al., 2018), included only in cross-sectional analyses. Participants were presented with a single forced-choice question: "Let's pretend a kind person wanted to give you some money. Would you rather have $75 in 3 days or $115 in 6 months?" Choosing the smaller, immediate reward ($75) was interpreted as reflecting greater impulsivity, while selecting the larger, delayed reward ($115) indicated lower impulsivity.
+
+
+Covariates
+
+Demographics and Socioeconomic Status (SES)
+
+To control for potential confounding variables, we included several demographic and socioeconomic covariates. Child's age at interview, gender (male/female), and race/ethnicity were recorded at baseline. Race/ethnicity was categorized as Hispanic, Black, White, Asian, or Other (including participants reporting multiple races). We included race/ethnicity because prior findings suggest structural inequalities may influence neurophysiological responses across racial/ethnic groups (Harnett et al., 2023). Parental education level, ranging from 0 (Never attended/Kindergarten only) to 21 (Doctoral degree), was defined as the highest degree received by either parent participating in the study. Household income was excluded as it was incorporated into the deprivation measure. The deprivation score was included in models analyzing the effect of threat to indirectly account for income effects.
+
+Data Acquisition Site
+
+The 21 ABCD study sites were included as a control variable. This accounts for site-related variability stemming from differences in scanner hardware and data collection protocols, reducing potential measurement bias.
+
+Adversity Exposure Before Birth
+
+Adversity exposure before birth was included as a covariate due to its potential influence on neurocognitive function. This included birth weight (continuous variable), premature birth (defined as gestational age < 37 weeks), cyanosis (blue at birth), and maternal smoking or alcohol consumption during pregnancy (assessed via self-report).
+
+Parental Psychopathology and Substance Use
+
+Parental psychopathology and substance use, often considered subcategories of Early Life Stress (ELS), were treated as covariates because it is difficult to clearly distinguish between threat and deprivation. Parental psychopathology was assessed at baseline using the Adult Self-Report (ASEBA; Achenbach & Rescorla, 2009). T-scores for DSM-5-oriented scales (anxiety, somatic problems, depressive symptoms, avoidant personality problems, attention deficit/hyperactivity problems [inattention and hyperactivity/impulsivity subscales], and antisocial personality problems) were included in the analyses. Only one parent (mother or father) completed the assessment; therefore, these psychopathology measures reflect data from a single parental source.
+
+Parental substance use was assessed separately for mothers and fathers by determining whether they reported problems with alcohol or drug use. Maternal and paternal substance use were analyzed separately to capture potential distinct pathways. This is because maternal use more directly impacts daily caregiving if the mother is the primary caregiver, while paternal use influences the broader home environment or family stability. Furthermore, because data were collected separately for mothers and fathers, combining them into a single "parental use" measure could conceal parent-specific differences and obscure potential differential effects on the child's neurodevelopment.
+
+Child Behavior Checklist (CBCL)
+
+The parent-reported Child Behavior Checklist (CBCL; Achenbach & Rescorla, 2009) was used to assess the child's behavior over the past six months. T-scores for internalizing and externalizing problems were included as control variables due to their potential impact on neurocognitive functions. Baseline data were used for cross-sectional analyses, while 2-year follow-up data were utilized for longitudinal analyses.
+
+
+MRI Acquisition
+
+MRI data from the Adolescent Brain Cognitive Development (ABCD) study (release 5.0) were analyzed. Task-related fMRI features, pre-extracted by the ABCD study investigators, were used to represent average beta estimates for each brain region during task performance. These beta estimates were derived from general linear models (GLMs) fit to each participant's fMRI time series data for each task condition. Brain regions were defined using a surface-based parcellation method. Specifically, cortical regions were parcellated according to the Desikan-Killiany Atlas (Desikan et al., 2006), and subcortical regions were parcellated according to the Aseg Atlas (Fischl et al., 2002).
+
+
+ANALYSIS
+
+Generalized Linear Model (GLM)
+
+To investigate the cross-sectional and longitudinal relationships between early-life stress (ELS) and neurocognitive functions, we conducted generalized linear regression analyses. Threat and deprivation were treated as binary variables based on pre-defined cut-off scores and entered as independent variables. This mass-univariate approach allowed us to examine how each type of ELS related to each neurocognitive outcome independently. We performed these analyses using the glm function in R (version 4.2.1), comparing two models:
+
+Model 1: A model including only covariates (age, sex, education, and SES).
+
+Model 2: A model including covariates, threat, and deprivation.
+
+We considered results significant only if Model 2 had a lower Akaike Information Criterion (AIC) than Model 1, indicating better model fit. For cross-sectional analyses, we used baseline neurocognitive function data (N = 3,568). For longitudinal analyses, we used 2-year follow-up neurocognitive function data (N = 2,222). We evaluated multicollinearity among predictors using the Variance Inflation Factor (VIF), with a threshold of 5. Neurocognitive functions (reward processing, emotion processing, working memory, and impulsivity) were treated as dependent variables, resulting in 123 models for cross-sectional data and 120 models for longitudinal data. To control for multiple comparisons, we adjusted p-values using the false discovery rate (FDR) method, implemented in the stats R package.
+
+While the GLM approach is valuable for examining each outcome separately, this mass-univariate strategy may still heighten the risk of multiple comparisons and may fail to capture the complex, joint impacts of predictors. Therefore, to further mitigate these issues and explore multivariate patterns, we also employed LASSO regression.
+
+Binomial LASSO Regression
+
+To explore multivariate patterns of neurocognitive functions associated with ELS, we applied binomial LASSO (Least Absolute Shrinkage and Selection Operator; Tibshirani, 1996) regression. LASSO performs both variable selection and regularization to enhance the interpretability and accuracy of statistical models. Threat and deprivation were separately set as outcome variables, while including covariates and neurocognitive functions as predictors. We constructed four models:
+
+Model 1: Cross-sectional analysis with threat as the outcome variable (low vs. high).
+
+Model 2: Cross-sectional analysis with deprivation as the outcome variable (low vs. high).
+
+Model 3: Longitudinal analysis with threat as the outcome variable (low vs. high).
+
+Model 4: Longitudinal analysis with deprivation as the outcome variable (low vs. high).
+
+To control for the influence of threat and deprivation, we included threat scores as continuous variables in models examining deprivation, and vice versa. Because ELS occurred before measuring neurocognitive functions, these analyses are not predictive. However, this approach enables the identification of variables associated with ELS while accounting for the effects of other variables.
+
+We performed the analysis using the glmnet (version 0.4-1) and easyml (version 0.1.1) R packages. The easyml package provides a framework for building and evaluating machine learning models with the glmnet package (Ahn et al., 2017). We divided the dataset into 80% training and 20% test sets and randomly split the data 100 times to ensure the robustness of the results. Model performance was averaged across all train-test splits (Ahn et al., 2017).
+
+The integration of findings from the mass-univariate (GLM) and multivariate (LASSO) approaches provides complementary insights: GLM elucidates how threat or deprivation relates to each neurocognitive outcome individually, whereas LASSO highlights which combinations of variables best characterize ELS exposure. We focused on results that emerged consistently across both methods, enhancing the clarity and robustness of conclusions.
